@@ -1,0 +1,1001 @@
+mean_fit_time,std_fit_time,mean_score_time,std_score_time,param_clf,param_clf__l2_regularization,param_clf__learning_rate,param_clf__max_iter,param_clf__min_samples_leaf,param_ct1__num_pipe__handle_skewness__log_thresh_abs,param_ct1__num_pipe__handle_skewness__sqrt_thresh_abs,param_ct1__num_pipe__imputer,params,split0_test_score,split1_test_score,split2_test_score,split3_test_score,split4_test_score,mean_test_score,std_test_score,rank_test_score
+280.8279541015625,2.7285318782276464,4.904357957839966,0.15234576348299653,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",10.0,0.01,2000,50,6,3,SimpleImputer(),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 10.0, 'clf__learning_rate': 0.01, 'clf__max_iter': 2000, 'clf__min_samples_leaf': 50, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 6, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 3, 'ct1__num_pipe__imputer': SimpleImputer()}",0.6766913922158665,0.7545626730767516,0.7435928423856565,0.7106054216958487,0.6542180313308794,0.7079340721410005,0.03824768886677951,1
+146.29903388023376,1.0350046506204449,2.510839033126831,0.1532558146264848,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",1.0,0.01,1000,50,6,2,SimpleImputer(),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 1.0, 'clf__learning_rate': 0.01, 'clf__max_iter': 1000, 'clf__min_samples_leaf': 50, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 6, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 2, 'ct1__num_pipe__imputer': SimpleImputer()}",0.7103908199042879,0.7391320248173731,0.739574901732816,0.696133661690862,0.6496193989476843,0.7069701614186046,0.03321353680371656,2
+52.41747813224792,0.8169198956028888,1.3806391716003419,0.06991994028979553,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",100.0,0.1,500,100,4,3,SimpleImputer(),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 100.0, 'clf__learning_rate': 0.1, 'clf__max_iter': 500, 'clf__min_samples_leaf': 100, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 4, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 3, 'ct1__num_pipe__imputer': SimpleImputer()}",0.6352637362638459,0.7825110440321665,0.6938462825259359,0.6983679737571364,0.6615677816728136,0.6943113636503796,0.04970839057173434,3
+65.8832667350769,1.389718709299607,2.230150318145752,0.10659992598711171,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",10.0,1.0,1000,250,6,3,SimpleImputer(),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 10.0, 'clf__learning_rate': 1.0, 'clf__max_iter': 1000, 'clf__min_samples_leaf': 250, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 6, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 3, 'ct1__num_pipe__imputer': SimpleImputer()}",0.6540117560809889,0.7444498559735391,0.6686978203104835,0.7406801566765802,0.6293863350458369,0.6874451848174857,0.046740951278920424,4
+243.72931723594667,4.761018273394641,5.762465524673462,0.2613796547440786,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",100.0,0.1,2000,100,4,1,SimpleImputer(),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 100.0, 'clf__learning_rate': 0.1, 'clf__max_iter': 2000, 'clf__min_samples_leaf': 100, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 4, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 1, 'ct1__num_pipe__imputer': SimpleImputer()}",0.6360461588831721,0.7441763381098999,0.7034396547312788,0.7029549329769778,0.6446574187902963,0.686254900698325,0.040448406685192485,5
+5.220228099822998,0.12009737762981283,0.14822764396667482,0.012939442359785166,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",10.0,1.0,50,100,4,3,SimpleImputer(),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 10.0, 'clf__learning_rate': 1.0, 'clf__max_iter': 50, 'clf__min_samples_leaf': 100, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 4, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 3, 'ct1__num_pipe__imputer': SimpleImputer()}",0.6385882866794261,0.7079682408877147,0.7076601416582737,0.6867494317588694,0.6799212880697981,0.6841774778108164,0.02537928429010824,6
+13.395333242416381,0.23615314263811718,0.3229964733123779,0.029484731851971955,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",0.01,0.1,100,100,5,3,SimpleImputer(),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 0.01, 'clf__learning_rate': 0.1, 'clf__max_iter': 100, 'clf__min_samples_leaf': 100, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 5, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 3, 'ct1__num_pipe__imputer': SimpleImputer()}",0.6008165868330541,0.7125300093220466,0.7801390069165156,0.6740241723187088,0.6467456171901703,0.682851078516099,0.060756820822850895,7
+7.995812463760376,0.30351898607024225,0.28916196823120116,0.018957289622713553,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",0.1,0.1,100,250,4,2,SimpleImputer(),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 0.1, 'clf__learning_rate': 0.1, 'clf__max_iter': 100, 'clf__min_samples_leaf': 250, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 4, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 2, 'ct1__num_pipe__imputer': SimpleImputer()}",0.6314201103648187,0.7257790198946216,0.7120242907680143,0.7236137756512087,0.6166186736240473,0.681891174060542,0.04771320739955665,8
+89.93623971939087,1.3289755381137551,1.4639747619628907,0.09183792584235963,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",10.0,0.1,500,50,5,2,SimpleImputer(),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 10.0, 'clf__learning_rate': 0.1, 'clf__max_iter': 500, 'clf__min_samples_leaf': 50, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 5, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 2, 'ct1__num_pipe__imputer': SimpleImputer()}",0.6051665172673389,0.7443086381832847,0.7183241479823499,0.6600374891184464,0.6760836460396794,0.6807840877182199,0.0481978362641945,9
+76.77986402511597,1.4342771647381143,1.9892961502075195,0.05719732615038182,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",0.001,0.1,1000,50,4,2,SimpleImputer(),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 0.001, 'clf__learning_rate': 0.1, 'clf__max_iter': 1000, 'clf__min_samples_leaf': 50, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 4, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 2, 'ct1__num_pipe__imputer': SimpleImputer()}",0.6324727169188262,0.6781998257386795,0.7140071139769815,0.6934100583400775,0.6776554360799598,0.6791490302109049,0.02683383298092999,10
+94.43653659820556,3.3242213207573967,2.432683229446411,0.12410154097001073,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",0.001,0.1,1000,50,4,1,SimpleImputer(),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 0.001, 'clf__learning_rate': 0.1, 'clf__max_iter': 1000, 'clf__min_samples_leaf': 50, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 4, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 1, 'ct1__num_pipe__imputer': SimpleImputer()}",0.6229467531153072,0.6467204941646301,0.7270301798203477,0.6992316079563061,0.6823446295331983,0.6756547329179579,0.037028047760658336,11
+7.864014196395874,0.30323951043468095,0.1779047966003418,0.009530214186454517,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",100.0,1.0,50,50,6,3,SimpleImputer(),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 100.0, 'clf__learning_rate': 1.0, 'clf__max_iter': 50, 'clf__min_samples_leaf': 50, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 6, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 3, 'ct1__num_pipe__imputer': SimpleImputer()}",0.6026628072335292,0.7348916796099135,0.6837758471136876,0.6841247582454246,0.6653852864282761,0.6741680757261662,0.04258859395779503,12
+63.17770009040832,0.8458328029113411,1.5367337703704833,0.21701673480398975,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",0.001,0.1,500,50,6,1,SimpleImputer(),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 0.001, 'clf__learning_rate': 0.1, 'clf__max_iter': 500, 'clf__min_samples_leaf': 50, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 6, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 1, 'ct1__num_pipe__imputer': SimpleImputer()}",0.6359390914336478,0.6343555097973574,0.7437138634964044,0.6437094049616319,0.7054010216565174,0.6726237782691118,0.04421405999341747,13
+186.70610451698303,2.053870714816719,3.005345106124878,0.11772155097192612,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",0.001,0.01,1000,50,5,2,SimpleImputer(),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 0.001, 'clf__learning_rate': 0.01, 'clf__max_iter': 1000, 'clf__min_samples_leaf': 50, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 5, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 2, 'ct1__num_pipe__imputer': SimpleImputer()}",0.6154425574413154,0.6638705717403723,0.7738320692565909,0.683768314326229,0.614660606993289,0.6703148239515594,0.05838955790648575,14
+7.216570568084717,0.14222648502033985,0.2567075252532959,0.019295731181731446,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",0.01,0.1,100,250,4,1,SimpleImputer(),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 0.01, 'clf__learning_rate': 0.1, 'clf__max_iter': 100, 'clf__min_samples_leaf': 250, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 4, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 1, 'ct1__num_pipe__imputer': SimpleImputer()}",0.6254812426480101,0.6915994366797726,0.6965504892072565,0.6961097047603197,0.6368797245201738,0.6693241195631066,0.03139990177341091,15
+344.2775016307831,2.6140794622927697,7.400787115097046,0.3210448901989471,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",10.0,0.1,2000,50,4,3,KNNImputer(n_neighbors=10),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 10.0, 'clf__learning_rate': 0.1, 'clf__max_iter': 2000, 'clf__min_samples_leaf': 50, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 4, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 3, 'ct1__num_pipe__imputer': KNNImputer(n_neighbors=10)}",0.6696504164481204,0.6560025444026991,0.6508094453290427,0.6740401384592802,0.6570614461259308,0.6615127981530147,0.00880788600746109,16
+123.42138237953186,3.059062473263008,2.182684803009033,0.11242339373185707,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",0.01,0.1,1000,5,6,2,SimpleImputer(),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 0.01, 'clf__learning_rate': 0.1, 'clf__max_iter': 1000, 'clf__min_samples_leaf': 5, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 6, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 2, 'ct1__num_pipe__imputer': SimpleImputer()}",0.6229521887957323,0.6906302618244757,0.7124831227368806,0.5971934722877201,0.6730150617986477,0.6592548214886913,0.042840417198026656,17
+152.67394156455993,3.8445164094614297,4.724451971054077,0.12919615730136383,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",100.0,1.0,2000,250,6,1,SimpleImputer(),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 100.0, 'clf__learning_rate': 1.0, 'clf__max_iter': 2000, 'clf__min_samples_leaf': 250, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 6, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 1, 'ct1__num_pipe__imputer': SimpleImputer()}",0.6388912393606023,0.7076714100984495,0.6815044236770544,0.7000044985449158,0.5664955833397455,0.6589134310041536,0.051996376858544996,18
+205.96517963409423,2.928740034834944,4.9254883289337155,0.2069201157460001,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",100.0,1.0,2000,100,4,2,SimpleImputer(strategy='median'),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 100.0, 'clf__learning_rate': 1.0, 'clf__max_iter': 2000, 'clf__min_samples_leaf': 100, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 4, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 2, 'ct1__num_pipe__imputer': SimpleImputer(strategy='median')}",0.6912626850930599,0.6382440527304983,0.6747101516073708,0.667572861163181,0.604777926302108,0.6553135353792436,0.030542024090152314,19
+358.83103919029236,2.6224244425073224,5.324032926559449,0.28065673968221344,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",0.1,0.1,2000,5,5,2,SimpleImputer(),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 0.1, 'clf__learning_rate': 0.1, 'clf__max_iter': 2000, 'clf__min_samples_leaf': 5, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 5, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 2, 'ct1__num_pipe__imputer': SimpleImputer()}",0.575303033908927,0.669210529304499,0.7375690417852796,0.6040090825586591,0.6807431853279435,0.6533669745770616,0.05765525752393026,20
+148.7017349720001,1.2753466431504714,1.614189624786377,0.14290409204534343,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",0.01,0.01,500,5,4,2,SimpleImputer(),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 0.01, 'clf__learning_rate': 0.01, 'clf__max_iter': 500, 'clf__min_samples_leaf': 5, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 4, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 2, 'ct1__num_pipe__imputer': SimpleImputer()}",0.5907546163659391,0.6956956051093137,0.6969633616831297,0.6327317635193234,0.6432654714335223,0.6518821636222456,0.04032243622474861,21
+120.30517101287842,2.865301352965882,3.532461738586426,0.17873542383712435,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",0.001,0.1,2000,100,5,3,SimpleImputer(),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 0.001, 'clf__learning_rate': 0.1, 'clf__max_iter': 2000, 'clf__min_samples_leaf': 100, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 5, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 3, 'ct1__num_pipe__imputer': SimpleImputer()}",0.5846598396352947,0.6648738983172664,0.7374122337294333,0.6025705967543556,0.6575013823499413,0.6494035901572583,0.05373175693963901,22
+3.8115798950195314,0.3136363613815339,0.14990620613098143,0.028760653948258847,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",10.0,1.0,50,250,6,2,SimpleImputer(),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 10.0, 'clf__learning_rate': 1.0, 'clf__max_iter': 50, 'clf__min_samples_leaf': 250, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 6, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 2, 'ct1__num_pipe__imputer': SimpleImputer()}",0.598846874257045,0.6812158770808852,0.6737969264128186,0.6880270824072293,0.5984785292870296,0.6480730578890016,0.04059389701233077,23
+260.2766366481781,3.0009994534653317,4.720394659042358,0.17119089303562482,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",1.0,1.0,2000,5,4,3,SimpleImputer(),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 1.0, 'clf__learning_rate': 1.0, 'clf__max_iter': 2000, 'clf__min_samples_leaf': 5, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 4, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 3, 'ct1__num_pipe__imputer': SimpleImputer()}",0.6040266518129046,0.7156253077699342,0.6346466573833769,0.6046620126840665,0.6799152934130951,0.6477751846126754,0.04377593802363769,24
+272.39822721481323,3.810444187684401,3.3645393371582033,0.1437580206481986,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",10.0,1.0,1000,5,4,3,SimpleImputer(),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 10.0, 'clf__learning_rate': 1.0, 'clf__max_iter': 1000, 'clf__min_samples_leaf': 5, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 4, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 3, 'ct1__num_pipe__imputer': SimpleImputer()}",0.5680045668306888,0.6950352351907634,0.6522533949074699,0.6632326265360441,0.6462034407540026,0.6449458528437938,0.041995941488880126,25
+247.72398324012755,1.3242974015098263,4.532955074310303,0.17482663336449847,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",1.0,0.001,2000,50,6,2,SimpleImputer(),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 1.0, 'clf__learning_rate': 0.001, 'clf__max_iter': 2000, 'clf__min_samples_leaf': 50, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 6, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 2, 'ct1__num_pipe__imputer': SimpleImputer()}",0.6067264614247326,0.7166936158325444,0.6811969180025625,0.6515216965034494,0.5680394818230676,0.6448356347172712,0.05268846929398384,26
+148.6431936740875,1.9586343011011238,6.538551330566406,0.2541455939211306,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",10.0,0.01,2000,250,5,1,KNNImputer(n_neighbors=100),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 10.0, 'clf__learning_rate': 0.01, 'clf__max_iter': 2000, 'clf__min_samples_leaf': 250, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 5, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 1, 'ct1__num_pipe__imputer': KNNImputer(n_neighbors=100)}",0.5946322711847774,0.6495891668707322,0.6753633584845219,0.6846488435348415,0.6036584316188616,0.641578414338747,0.036612899160561006,27
+68.52940707206726,1.5519846725309099,1.6246818542480468,0.07692796269009297,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",0.1,0.1,500,100,4,2,SimpleImputer(strategy='median'),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 0.1, 'clf__learning_rate': 0.1, 'clf__max_iter': 500, 'clf__min_samples_leaf': 100, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 4, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 2, 'ct1__num_pipe__imputer': SimpleImputer(strategy='median')}",0.6705341045833093,0.6521435590213089,0.6585019675060177,0.6046165505013137,0.6214410140692505,0.64144743913624,0.02452781860231549,28
+25.19213948249817,0.46283253127519847,0.2767023086547852,0.018031520778782333,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",0.01,0.1,100,5,6,3,SimpleImputer(),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 0.01, 'clf__learning_rate': 0.1, 'clf__max_iter': 100, 'clf__min_samples_leaf': 5, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 6, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 3, 'ct1__num_pipe__imputer': SimpleImputer()}",0.510829472011872,0.67911818130786,0.6975604993098381,0.6474754962526913,0.6455775628052131,0.6361122423374949,0.06563518483743684,29
+210.57895731925964,1.6642941326163008,5.572981500625611,0.2408808167681088,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",100.0,1.0,1000,50,5,1,KNNImputer(n_neighbors=100),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 100.0, 'clf__learning_rate': 1.0, 'clf__max_iter': 1000, 'clf__min_samples_leaf': 50, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 5, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 1, 'ct1__num_pipe__imputer': KNNImputer(n_neighbors=100)}",0.5560988877637868,0.6426347665506489,0.6615728005571109,0.6952890451321935,0.6155266827836441,0.6342244365574767,0.04690577886558543,30
+111.38267183303833,1.6565910060393427,1.2740245819091798,0.08622907281391526,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",0.1,0.1,500,5,5,1,SimpleImputer(),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 0.1, 'clf__learning_rate': 0.1, 'clf__max_iter': 500, 'clf__min_samples_leaf': 5, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 5, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 1, 'ct1__num_pipe__imputer': SimpleImputer()}",0.5424147629738643,0.6309268744241759,0.7047289683294664,0.598317190790038,0.6876883023072569,0.6328152197649602,0.05924283055292372,31
+39.689527082443234,0.6528025864444378,1.0080801486968993,0.031066827988491832,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",0.01,0.1,500,100,4,3,SimpleImputer(strategy='median'),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 0.01, 'clf__learning_rate': 0.1, 'clf__max_iter': 500, 'clf__min_samples_leaf': 100, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 4, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 3, 'ct1__num_pipe__imputer': SimpleImputer(strategy='median')}",0.6768293455379626,0.6325139703368463,0.5997709734568082,0.5924233239488682,0.6514923623301738,0.6306059951221318,0.031575920468801456,32
+92.58103122711182,0.8625055774344861,3.5178550243377686,0.1167372972692863,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",10.0,1.0,500,50,5,3,KNNImputer(n_neighbors=10),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 10.0, 'clf__learning_rate': 1.0, 'clf__max_iter': 500, 'clf__min_samples_leaf': 50, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 5, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 3, 'ct1__num_pipe__imputer': KNNImputer(n_neighbors=10)}",0.6775487498736883,0.5768149864432551,0.5857224871876159,0.6759734896841028,0.6335820787799293,0.6299283583937183,0.04284015593331499,33
+121.79172911643983,1.3675956909959734,1.193720531463623,0.006704142730996231,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",1.0,0.01,500,5,5,1,SimpleImputer(),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 1.0, 'clf__learning_rate': 0.01, 'clf__max_iter': 500, 'clf__min_samples_leaf': 5, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 5, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 1, 'ct1__num_pipe__imputer': SimpleImputer()}",0.547063069604894,0.6983893143824141,0.6857461218333565,0.6103497406019156,0.6047053163955949,0.629250712563635,0.0560114441864629,34
+164.10312895774842,2.3917293833130295,3.0529189109802246,0.15199744007782215,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",10.0,0.01,1000,50,6,2,SimpleImputer(strategy='median'),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 10.0, 'clf__learning_rate': 0.01, 'clf__max_iter': 1000, 'clf__min_samples_leaf': 50, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 6, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 2, 'ct1__num_pipe__imputer': SimpleImputer(strategy='median')}",0.6702578457404935,0.5697686004627961,0.6868324705727877,0.6221534129342086,0.5943298719410103,0.6286684403302593,0.044279808160916444,35
+17.509094095230104,0.2834089837903485,2.675853443145752,0.09883044036961405,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",10.0,1.0,100,250,5,3,KNNImputer(n_neighbors=100),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 10.0, 'clf__learning_rate': 1.0, 'clf__max_iter': 100, 'clf__min_samples_leaf': 250, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 5, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 3, 'ct1__num_pipe__imputer': KNNImputer(n_neighbors=100)}",0.5991806443296253,0.6806484271456325,0.6437332564747437,0.666534478676774,0.5523464965257834,0.6284886606305117,0.04702576355620307,36
+105.3853506565094,2.737280648792876,2.338194179534912,0.23876354705686287,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",0.001,0.1,1000,5,5,3,SimpleImputer(strategy='median'),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 0.001, 'clf__learning_rate': 0.1, 'clf__max_iter': 1000, 'clf__min_samples_leaf': 5, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 5, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 3, 'ct1__num_pipe__imputer': SimpleImputer(strategy='median')}",0.6757737616209212,0.5641679793367954,0.6010671579603727,0.6314141323394995,0.6691000409783995,0.6283046144471977,0.04191096004613213,37
+247.38987946510315,1.7372700960976455,2.734461784362793,0.22470973820940446,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",100.0,0.1,1000,5,4,1,SimpleImputer(),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 100.0, 'clf__learning_rate': 0.1, 'clf__max_iter': 1000, 'clf__min_samples_leaf': 5, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 4, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 1, 'ct1__num_pipe__imputer': SimpleImputer()}",0.5812456833673162,0.6851669226062496,0.646647295738668,0.6190679432499876,0.6076828027316548,0.6279621295387752,0.035480439045171515,38
+82.35208640098571,1.1045658714869004,4.552343368530273,0.24131507980621184,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",10.0,0.1,1000,250,5,3,KNNImputer(n_neighbors=10),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 10.0, 'clf__learning_rate': 0.1, 'clf__max_iter': 1000, 'clf__min_samples_leaf': 250, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 5, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 3, 'ct1__num_pipe__imputer': KNNImputer(n_neighbors=10)}",0.6612853487919429,0.5794923689749004,0.6391286066289582,0.6387889578109169,0.6210502578895348,0.6279491080192507,0.027384076297913666,39
+175.09632954597473,34.36291212850974,3.1750065326690673,1.1288870045494679,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",0.1,0.1,1000,5,4,3,KNNImputer(n_neighbors=10),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 0.1, 'clf__learning_rate': 0.1, 'clf__max_iter': 1000, 'clf__min_samples_leaf': 5, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 4, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 3, 'ct1__num_pipe__imputer': KNNImputer(n_neighbors=10)}",0.655685787554328,0.6306972624657922,0.6245793233838837,0.6267179979862048,0.5988148653170636,0.6272990473414545,0.01809109188690225,40
+210.6248562335968,16.640089319204844,4.93794264793396,0.17559157000307343,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",1.0,1.0,2000,100,4,3,SimpleImputer(),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 1.0, 'clf__learning_rate': 1.0, 'clf__max_iter': 2000, 'clf__min_samples_leaf': 100, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 4, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 3, 'ct1__num_pipe__imputer': SimpleImputer()}",0.5246526569991965,0.6853231709608237,0.6412689477880249,0.6732195577082931,0.6118754954539029,0.6272679657820481,0.05734947756595588,41
+11.444755601882935,0.17196638190929542,0.30721402168273926,0.03472526341285737,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",0.1,0.1,100,100,4,2,SimpleImputer(strategy='median'),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 0.1, 'clf__learning_rate': 0.1, 'clf__max_iter': 100, 'clf__min_samples_leaf': 100, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 4, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 2, 'ct1__num_pipe__imputer': SimpleImputer(strategy='median')}",0.6674219589224266,0.637517400865739,0.6258556809677738,0.5920093851234872,0.6124235442677065,0.6270455940294266,0.02522960858681268,42
+94.48400259017944,1.2797127681898215,5.196682262420654,0.24846328457368436,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",100.0,1.0,1000,250,4,3,KNNImputer(n_neighbors=100),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 100.0, 'clf__learning_rate': 1.0, 'clf__max_iter': 1000, 'clf__min_samples_leaf': 250, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 4, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 3, 'ct1__num_pipe__imputer': KNNImputer(n_neighbors=100)}",0.5761174230450176,0.6294355187898196,0.617437618133735,0.672766778757596,0.6366773526641627,0.6264869382780661,0.031219675101103475,43
+81.35492434501649,0.523105521278426,4.714646530151367,0.06501203137325359,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",10.0,1.0,1000,250,4,3,KNNImputer(n_neighbors=100),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 10.0, 'clf__learning_rate': 1.0, 'clf__max_iter': 1000, 'clf__min_samples_leaf': 250, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 4, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 3, 'ct1__num_pipe__imputer': KNNImputer(n_neighbors=100)}",0.582139405804692,0.6249466462469221,0.6232509975961051,0.6680188401387033,0.632072576503451,0.6260856932579747,0.027330717834813927,44
+198.68542141914367,0.9814222269636778,5.740929985046387,0.13521446936272832,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",10.0,0.01,1000,50,5,3,KNNImputer(n_neighbors=100),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 10.0, 'clf__learning_rate': 0.01, 'clf__max_iter': 1000, 'clf__min_samples_leaf': 50, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 5, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 3, 'ct1__num_pipe__imputer': KNNImputer(n_neighbors=100)}",0.5860551555861591,0.6133772545264577,0.6489790553387877,0.6795068897783196,0.5874177613625587,0.6230672233184567,0.036308488758155566,45
+241.1995135307312,2.334260767771637,2.650264358520508,0.2946759707620717,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",10.0,0.1,1000,5,5,2,SimpleImputer(),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 10.0, 'clf__learning_rate': 0.1, 'clf__max_iter': 1000, 'clf__min_samples_leaf': 5, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 5, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 2, 'ct1__num_pipe__imputer': SimpleImputer()}",0.5479712211483913,0.6740396090858345,0.6867975959002707,0.5792238452448102,0.6271259915788494,0.6230316525916313,0.0533626519514893,46
+89.04645962715149,1.3109141253346945,1.5391672134399415,0.16016813375941075,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",10.0,1.0,500,50,5,2,SimpleImputer(strategy='median'),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 10.0, 'clf__learning_rate': 1.0, 'clf__max_iter': 500, 'clf__min_samples_leaf': 50, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 5, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 2, 'ct1__num_pipe__imputer': SimpleImputer(strategy='median')}",0.6529543104015351,0.5769545253362861,0.645855116404684,0.6101483739452263,0.6261450718851793,0.6224114795945821,0.027251153306187253,47
+67.59809184074402,0.9415794287392132,1.641196346282959,0.093632407761665,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",0.01,0.01,500,100,5,1,SimpleImputer(strategy='median'),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 0.01, 'clf__learning_rate': 0.01, 'clf__max_iter': 500, 'clf__min_samples_leaf': 100, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 5, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 1, 'ct1__num_pipe__imputer': SimpleImputer(strategy='median')}",0.6649300478418747,0.6111486749977948,0.6307787148672068,0.6169140109551987,0.5818282181911885,0.6211199333706527,0.027105618785141207,48
+8.083521270751953,0.2939525759924442,0.29061450958251955,0.032830241549110115,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",10.0,1.0,100,250,6,3,SimpleImputer(strategy='median'),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 10.0, 'clf__learning_rate': 1.0, 'clf__max_iter': 100, 'clf__min_samples_leaf': 250, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 6, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 3, 'ct1__num_pipe__imputer': SimpleImputer(strategy='median')}",0.6198602976599961,0.5621559029699407,0.6272938622267125,0.70905926329391,0.5817570010730734,0.6200252654447265,0.05058307159082847,49
+162.2645408153534,2.1454758864626977,2.7294428825378416,0.043041057930285224,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",0.1,0.01,1000,50,5,1,SimpleImputer(strategy='median'),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 0.1, 'clf__learning_rate': 0.01, 'clf__max_iter': 1000, 'clf__min_samples_leaf': 50, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 5, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 1, 'ct1__num_pipe__imputer': SimpleImputer(strategy='median')}",0.6649453336473894,0.5935148796950914,0.6542258286598525,0.5856038141144673,0.600816361893548,0.6198212436020698,0.03299667185313283,50
+562.629287481308,4.0781230883047614,6.655788898468018,0.36411555940044243,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",0.1,0.01,2000,5,4,1,SimpleImputer(strategy='median'),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 0.1, 'clf__learning_rate': 0.01, 'clf__max_iter': 2000, 'clf__min_samples_leaf': 5, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 4, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 1, 'ct1__num_pipe__imputer': SimpleImputer(strategy='median')}",0.6276598902106766,0.5977480224019229,0.655977050958706,0.6040577889648985,0.6104298347801035,0.6191745174632615,0.020930875130685752,51
+69.25665497779846,1.2777234392671317,2.2300988674163817,0.10211337308616197,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",0.1,0.01,1000,250,6,3,SimpleImputer(strategy='median'),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 0.1, 'clf__learning_rate': 0.01, 'clf__max_iter': 1000, 'clf__min_samples_leaf': 250, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 6, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 3, 'ct1__num_pipe__imputer': SimpleImputer(strategy='median')}",0.6834581146177648,0.5867050087793272,0.6019689001198991,0.6348866365827301,0.5809644388613612,0.6175966197922165,0.037886976955547914,52
+55.37757415771485,0.2438587051529345,4.063807010650635,0.11669809852323527,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",0.01,0.01,500,250,5,1,KNNImputer(n_neighbors=100),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 0.01, 'clf__learning_rate': 0.01, 'clf__max_iter': 500, 'clf__min_samples_leaf': 250, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 5, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 1, 'ct1__num_pipe__imputer': KNNImputer(n_neighbors=100)}",0.5988770299261252,0.5995724678627856,0.6388046318567844,0.6466233702515531,0.5951382320117053,0.6158031463817908,0.022162678370718742,53
+274.282835483551,2.7760065810845465,5.272418260574341,0.3568281133861321,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",0.1,0.001,2000,50,5,2,SimpleImputer(strategy='median'),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 0.1, 'clf__learning_rate': 0.001, 'clf__max_iter': 2000, 'clf__min_samples_leaf': 50, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 5, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 2, 'ct1__num_pipe__imputer': SimpleImputer(strategy='median')}",0.6408206215719174,0.594153128811233,0.6263681699266616,0.6147970486661867,0.5977038257839431,0.6147685589519883,0.01748978462511892,54
+46.09748706817627,0.5928221826568174,3.6154854774475096,0.12479422853868485,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",0.01,0.01,500,250,4,1,KNNImputer(n_neighbors=100),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 0.01, 'clf__learning_rate': 0.01, 'clf__max_iter': 500, 'clf__min_samples_leaf': 250, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 4, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 1, 'ct1__num_pipe__imputer': KNNImputer(n_neighbors=100)}",0.5997170403814789,0.597059987679961,0.6269746351228517,0.6490610088242047,0.5983449259853755,0.6142315195987743,0.02065621352034182,55
+160.44686827659606,2.0797942660207607,5.879037761688233,0.2917604996431731,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",0.01,0.01,1000,100,4,1,KNNImputer(n_neighbors=100),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 0.01, 'clf__learning_rate': 0.01, 'clf__max_iter': 1000, 'clf__min_samples_leaf': 100, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 4, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 1, 'ct1__num_pipe__imputer': KNNImputer(n_neighbors=100)}",0.5534537420768315,0.6325877358187849,0.6269570973067312,0.6301217427532465,0.6200740086597439,0.6126388653230675,0.029889062797420214,56
+86.51089825630189,2.5184033333715887,4.044258403778076,0.1569524787941434,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",0.001,0.1,1000,5,4,2,KNNImputer(n_neighbors=10),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 0.001, 'clf__learning_rate': 0.1, 'clf__max_iter': 1000, 'clf__min_samples_leaf': 5, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 4, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 2, 'ct1__num_pipe__imputer': KNNImputer(n_neighbors=10)}",0.6813575827330506,0.6285975623429855,0.6528594651670496,0.6361988199649419,0.45728840203925697,0.6112603664494569,0.07908726243126057,57
+22.918175649642944,0.5021908467887549,3.025869083404541,0.17838617648014946,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",0.001,0.1,50,50,6,2,KNNImputer(n_neighbors=10),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 0.001, 'clf__learning_rate': 0.1, 'clf__max_iter': 50, 'clf__min_samples_leaf': 50, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 6, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 2, 'ct1__num_pipe__imputer': KNNImputer(n_neighbors=10)}",0.6328813834378024,0.607236077801347,0.6179952493044137,0.6641308691509024,0.5292368145885489,0.610296078856603,0.04482750446941605,58
+24.287879943847656,0.8856561778106338,2.8670305728912355,0.15865184622079934,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",10.0,1.0,100,100,4,1,KNNImputer(n_neighbors=100),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 10.0, 'clf__learning_rate': 1.0, 'clf__max_iter': 100, 'clf__min_samples_leaf': 100, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 4, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 1, 'ct1__num_pipe__imputer': KNNImputer(n_neighbors=100)}",0.5570095841190698,0.5909814367452598,0.6189836384214862,0.6618436108703226,0.6185713599758544,0.6094779260263985,0.034670624674314865,59
+27.458420276641846,0.35610172891862674,2.8814348697662355,0.1056181370463721,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",10.0,1.0,100,50,5,3,KNNImputer(n_neighbors=10),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 10.0, 'clf__learning_rate': 1.0, 'clf__max_iter': 100, 'clf__min_samples_leaf': 50, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 5, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 3, 'ct1__num_pipe__imputer': KNNImputer(n_neighbors=10)}",0.6661772864190549,0.5542691988974676,0.573272176128655,0.6378236757152919,0.6110458379486225,0.6085176350218184,0.040926779557998214,60
+19.084411573410033,0.30420921921918925,2.9984931468963625,0.09079181152563949,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",0.1,0.1,50,100,6,3,KNNImputer(n_neighbors=10),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 0.1, 'clf__learning_rate': 0.1, 'clf__max_iter': 50, 'clf__min_samples_leaf': 100, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 6, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 3, 'ct1__num_pipe__imputer': KNNImputer(n_neighbors=10)}",0.6155264947221539,0.55726636140291,0.5979714963773963,0.6169919398884965,0.6424175585582522,0.6060347701898418,0.028203665620081066,61
+17.199889850616454,0.7672508057036507,3.130907726287842,0.07141365802137621,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",0.001,0.1,50,250,4,1,KNNImputer(n_neighbors=100),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 0.001, 'clf__learning_rate': 0.1, 'clf__max_iter': 50, 'clf__min_samples_leaf': 250, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 4, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 1, 'ct1__num_pipe__imputer': KNNImputer(n_neighbors=100)}",0.6012557798130898,0.5987904333381667,0.6096653828603098,0.6284367555178043,0.5895179013571783,0.6055332505773098,0.013129347332335117,62
+160.98821454048158,2.146191696273595,5.405743932723999,0.2872870377731575,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",0.1,0.1,2000,250,5,1,SimpleImputer(strategy='median'),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 0.1, 'clf__learning_rate': 0.1, 'clf__max_iter': 2000, 'clf__min_samples_leaf': 250, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 5, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 1, 'ct1__num_pipe__imputer': SimpleImputer(strategy='median')}",0.612436577931132,0.5665252558360799,0.5696591301357463,0.645767112931126,0.6018290234435814,0.5992434200555331,0.02929473412865309,63
+155.43223848342896,0.9333575167297411,3.922357606887817,0.24755586692899803,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",10.0,0.1,500,5,4,3,KNNImputer(n_neighbors=10),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 10.0, 'clf__learning_rate': 0.1, 'clf__max_iter': 500, 'clf__min_samples_leaf': 5, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 4, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 3, 'ct1__num_pipe__imputer': KNNImputer(n_neighbors=10)}",0.6144252565608747,0.6066132124543859,0.5846366561147042,0.6117190661261834,0.5728441693463677,0.5980476721205031,0.016392514570773276,64
+96.21516470909118,1.0670551271122617,5.109713172912597,0.16216860990649298,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",0.1,0.1,1000,250,5,3,KNNImputer(n_neighbors=10),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 0.1, 'clf__learning_rate': 0.1, 'clf__max_iter': 1000, 'clf__min_samples_leaf': 250, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 5, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 3, 'ct1__num_pipe__imputer': KNNImputer(n_neighbors=10)}",0.6307443370969462,0.5663839598297833,0.5984895384824622,0.605318960144617,0.5847156862569662,0.5971304963621551,0.021439520713997944,65
+389.5546762943268,2.804219899413772,9.133122777938842,0.2696818847024075,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",0.001,0.01,2000,50,6,3,KNNImputer(n_neighbors=100),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 0.001, 'clf__learning_rate': 0.01, 'clf__max_iter': 2000, 'clf__min_samples_leaf': 50, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 6, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 3, 'ct1__num_pipe__imputer': KNNImputer(n_neighbors=100)}",0.5421328247569593,0.6145948685296034,0.6567526224885877,0.6179694377625669,0.550910806069575,0.5964721119214584,0.043480800360861334,66
+282.14162402153016,2.8615125644762,3.2111467838287355,0.2581027838605592,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",0.01,0.01,1000,5,5,2,SimpleImputer(strategy='median'),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 0.01, 'clf__learning_rate': 0.01, 'clf__max_iter': 1000, 'clf__min_samples_leaf': 5, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 5, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 2, 'ct1__num_pipe__imputer': SimpleImputer(strategy='median')}",0.6046243641263853,0.5149535553719706,0.6192360253240159,0.6237939444658057,0.6170658660668431,0.595934751071004,0.0409855376719345,67
+89.06880297660828,1.5839133518892659,1.5907406330108642,0.07032484639935628,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",1.0,1.0,500,50,6,1,SimpleImputer(),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 1.0, 'clf__learning_rate': 1.0, 'clf__max_iter': 500, 'clf__min_samples_leaf': 50, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 6, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 1, 'ct1__num_pipe__imputer': SimpleImputer()}",0.5990393838418493,0.554678420740456,0.619935590363214,0.6255022601075627,0.5792216758435615,0.5956754661793286,0.026233536378557375,68
+187.54137196540833,2.342393019164149,2.909719133377075,0.14673469280106707,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",1.0,1.0,1000,5,4,3,SimpleImputer(strategy='median'),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 1.0, 'clf__learning_rate': 1.0, 'clf__max_iter': 1000, 'clf__min_samples_leaf': 5, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 4, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 3, 'ct1__num_pipe__imputer': SimpleImputer(strategy='median')}",0.6276458284869975,0.5751361600398893,0.5949092846237923,0.5760216488397308,0.6046015491863074,0.5956628942353435,0.019547382947832873,69
+59.70304117202759,2.14952067649764,4.262505340576172,0.6128149548681785,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",0.1,0.1,500,250,5,3,KNNImputer(n_neighbors=10),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 0.1, 'clf__learning_rate': 0.1, 'clf__max_iter': 500, 'clf__min_samples_leaf': 250, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 5, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 3, 'ct1__num_pipe__imputer': KNNImputer(n_neighbors=10)}",0.6166811423559102,0.5550017090735483,0.6130092536946433,0.6088606357412584,0.5803742395584115,0.5947853960847544,0.023664607526754918,70
+151.6349248409271,0.954686216472962,3.674898290634155,0.24743339597963043,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",10.0,0.1,500,5,4,1,KNNImputer(n_neighbors=10),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 10.0, 'clf__learning_rate': 0.1, 'clf__max_iter': 500, 'clf__min_samples_leaf': 5, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 4, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 1, 'ct1__num_pipe__imputer': KNNImputer(n_neighbors=10)}",0.6114753863916178,0.5923742909331511,0.6015169865038943,0.6097236468564783,0.5492194062247799,0.5928619433819843,0.02284992748612378,71
+123.24256820678711,1.7562506084322815,1.3209534645080567,0.10118073769616391,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",0.01,0.01,500,5,5,3,SimpleImputer(strategy='median'),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 0.01, 'clf__learning_rate': 0.01, 'clf__max_iter': 500, 'clf__min_samples_leaf': 5, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 5, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 3, 'ct1__num_pipe__imputer': SimpleImputer(strategy='median')}",0.6222410952747143,0.5199845163913954,0.5662920870517253,0.6411342575458778,0.6120580581010479,0.592342002872952,0.043766577751740504,72
+547.2495491981506,3.410364319547539,5.9858499526977536,0.40199499924186133,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",0.1,0.001,2000,5,4,1,SimpleImputer(strategy='median'),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 0.1, 'clf__learning_rate': 0.001, 'clf__max_iter': 2000, 'clf__min_samples_leaf': 5, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 4, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 1, 'ct1__num_pipe__imputer': SimpleImputer(strategy='median')}",0.6287500360780094,0.5517822836122066,0.5911080179023863,0.6252026509203051,0.543279280020853,0.588024453706752,0.03568171867222695,73
+143.05233855247496,1.5985454069241298,4.515305662155152,0.25715114490330854,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",0.01,0.01,2000,250,5,3,SimpleImputer(strategy='median'),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 0.01, 'clf__learning_rate': 0.01, 'clf__max_iter': 2000, 'clf__min_samples_leaf': 250, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 5, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 3, 'ct1__num_pipe__imputer': SimpleImputer(strategy='median')}",0.6194613941247319,0.5590755469676482,0.5704581817110742,0.6039369163255248,0.5745055153824083,0.5854875109022775,0.022533007354121455,74
+489.06670117378235,3.9188615398990105,5.494382905960083,0.5432805735274014,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",100.0,0.1,2000,5,4,1,SimpleImputer(strategy='median'),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 100.0, 'clf__learning_rate': 0.1, 'clf__max_iter': 2000, 'clf__min_samples_leaf': 5, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 4, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 1, 'ct1__num_pipe__imputer': SimpleImputer(strategy='median')}",0.618079554682849,0.5400720173761201,0.6273742853826905,0.5871709267855617,0.5444479994846385,0.5834289567423719,0.036180650648324174,75
+151.4658971309662,1.220832364107378,6.529077577590942,0.1443662615210903,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",100.0,1.0,2000,250,5,2,KNNImputer(n_neighbors=100),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 100.0, 'clf__learning_rate': 1.0, 'clf__max_iter': 2000, 'clf__min_samples_leaf': 250, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 5, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 2, 'ct1__num_pipe__imputer': KNNImputer(n_neighbors=100)}",0.582643450490997,0.5885221728899683,0.6692811385026289,0.5826458971796397,0.48298693463080367,0.5812159187388075,0.05909632862692359,76
+18.171319913864135,0.4164542906711125,2.468339681625366,0.04061108502400803,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",0.001,0.1,50,50,5,2,KNNImputer(n_neighbors=10),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 0.001, 'clf__learning_rate': 0.1, 'clf__max_iter': 50, 'clf__min_samples_leaf': 50, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 5, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 2, 'ct1__num_pipe__imputer': KNNImputer(n_neighbors=10)}",0.6615125819258633,0.5425311267688453,0.579261259865885,0.6375578589571691,0.4801693714199821,0.5802064397875489,0.06531096638988601,77
+181.443696641922,2.063989914195297,4.3461594581604,0.22729003919049828,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",100.0,1.0,500,5,4,1,KNNImputer(n_neighbors=10),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 100.0, 'clf__learning_rate': 1.0, 'clf__max_iter': 500, 'clf__min_samples_leaf': 5, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 4, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 1, 'ct1__num_pipe__imputer': KNNImputer(n_neighbors=10)}",0.640040523432233,0.5487599432126468,0.5854818532956112,0.5675399100351066,0.5502634636708892,0.5784171387292973,0.033579292736513965,78
+109.42145729064941,0.7923148206023198,5.203849935531617,0.18500141460570563,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",100.0,0.01,1000,100,4,1,KNNImputer(n_neighbors=10),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 100.0, 'clf__learning_rate': 0.01, 'clf__max_iter': 1000, 'clf__min_samples_leaf': 100, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 4, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 1, 'ct1__num_pipe__imputer': KNNImputer(n_neighbors=10)}",0.5975005491971028,0.573307742997307,0.5698376220777297,0.5586484968528049,0.5587884768979055,0.57161657760457,0.01420377410887501,79
+549.2640620231629,2.1955620747982043,7.095662784576416,0.19212894450181386,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",1.0,0.01,2000,5,6,1,KNNImputer(n_neighbors=10),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 1.0, 'clf__learning_rate': 0.01, 'clf__max_iter': 2000, 'clf__min_samples_leaf': 5, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 6, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 1, 'ct1__num_pipe__imputer': KNNImputer(n_neighbors=10)}",0.5925117575824382,0.46326769847715993,0.5953114532088071,0.6171391546964927,0.5750745007584285,0.5686609129446653,0.05436564682608473,80
+29.1787428855896,0.34911194603250895,3.1170856952667236,0.06708885091286564,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",0.01,0.1,50,5,5,3,KNNImputer(n_neighbors=100),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 0.01, 'clf__learning_rate': 0.1, 'clf__max_iter': 50, 'clf__min_samples_leaf': 5, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 5, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 3, 'ct1__num_pipe__imputer': KNNImputer(n_neighbors=100)}",0.5037629240853219,0.5815991285534656,0.574219848885725,0.6205780249672823,0.5579044052077761,0.5676128663399141,0.03798853806336365,81
+199.1400071144104,3.240343955900029,6.873372602462768,0.4883611796583559,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",100.0,0.01,2000,100,5,3,KNNImputer(n_neighbors=10),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 100.0, 'clf__learning_rate': 0.01, 'clf__max_iter': 2000, 'clf__min_samples_leaf': 100, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 5, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 3, 'ct1__num_pipe__imputer': KNNImputer(n_neighbors=10)}",0.6192669483949588,0.48238555263840066,0.5479391757568404,0.6125492228538609,0.5644815099138498,0.5653244819115821,0.049642303146087856,82
+26.216234159469604,0.39187614318358316,2.90985689163208,0.345590458817306,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",1.0,0.1,50,5,5,3,KNNImputer(n_neighbors=100),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 1.0, 'clf__learning_rate': 0.1, 'clf__max_iter': 50, 'clf__min_samples_leaf': 5, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 5, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 3, 'ct1__num_pipe__imputer': KNNImputer(n_neighbors=100)}",0.565992647222494,0.5408815226308539,0.5922472186084776,0.5919557881555668,0.5264023351126428,0.563495902346007,0.026571337648275434,83
+39.29479513168335,0.4533659939749243,2.9925150871276855,0.15894292808743288,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",0.01,0.1,100,5,6,1,KNNImputer(n_neighbors=100),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 0.01, 'clf__learning_rate': 0.1, 'clf__max_iter': 100, 'clf__min_samples_leaf': 5, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 6, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 1, 'ct1__num_pipe__imputer': KNNImputer(n_neighbors=100)}",0.49047087874136397,0.5997125256618928,0.5943206714576312,0.6234507444824368,0.5043897618421311,0.5624689164370912,0.05417990348502099,84
+16.771780920028686,0.4036542776746473,0.32929201126098634,0.03103192266153587,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",0.1,0.01,100,50,4,1,SimpleImputer(strategy='median'),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 0.1, 'clf__learning_rate': 0.01, 'clf__max_iter': 100, 'clf__min_samples_leaf': 50, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 4, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 1, 'ct1__num_pipe__imputer': SimpleImputer(strategy='median')}",0.596906316823648,0.5306216509943561,0.5421440589346185,0.5882148778988359,0.553781363835101,0.5623336536973119,0.02589022717481637,85
+540.8464809417725,1.9426974507407437,4.9007772445678714,0.2857877382621464,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",100.0,0.1,2000,5,5,2,SimpleImputer(strategy='median'),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 100.0, 'clf__learning_rate': 0.1, 'clf__max_iter': 2000, 'clf__min_samples_leaf': 5, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 5, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 2, 'ct1__num_pipe__imputer': SimpleImputer(strategy='median')}",0.5827347136059267,0.49124587415197746,0.6089788076339948,0.5761763348567516,0.5429967557275814,0.5604264971952464,0.04047911868362408,86
+125.62099938392639,1.1094211983102134,3.951296091079712,0.1617127806144546,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",10.0,0.01,1000,50,5,2,KNNImputer(n_neighbors=100),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 10.0, 'clf__learning_rate': 0.01, 'clf__max_iter': 1000, 'clf__min_samples_leaf': 50, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 5, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 2, 'ct1__num_pipe__imputer': KNNImputer(n_neighbors=100)}",0.5724874348104951,0.5674687406674276,0.6308144807673831,0.5515183931530974,0.4795411224502578,0.5603660343697322,0.04852073273793056,87
+68.46479015350342,0.6529595269439904,3.8534783363342284,0.17711761348083974,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",0.1,0.01,500,100,4,2,KNNImputer(n_neighbors=100),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 0.1, 'clf__learning_rate': 0.01, 'clf__max_iter': 500, 'clf__min_samples_leaf': 100, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 4, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 2, 'ct1__num_pipe__imputer': KNNImputer(n_neighbors=100)}",0.5752022137067869,0.5996379688881293,0.6145689701774529,0.5171087301297612,0.4948827492867551,0.560280126437777,0.0466038054300685,88
+23.247845935821534,0.6083356335886579,2.8926476001739503,0.18706619362821159,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",0.01,0.1,100,100,5,2,KNNImputer(n_neighbors=100),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 0.01, 'clf__learning_rate': 0.1, 'clf__max_iter': 100, 'clf__min_samples_leaf': 100, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 5, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 2, 'ct1__num_pipe__imputer': KNNImputer(n_neighbors=100)}",0.559199924967845,0.5754940720765388,0.6717866664100509,0.5295342367731074,0.4308527414072114,0.5533735283269507,0.07762034742708013,89
+222.73005251884462,3.0005382927372377,2.518586826324463,0.11164318058499673,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",0.1,0.001,1000,5,4,1,SimpleImputer(),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 0.1, 'clf__learning_rate': 0.001, 'clf__max_iter': 1000, 'clf__min_samples_leaf': 5, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 4, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 1, 'ct1__num_pipe__imputer': SimpleImputer()}",0.535170983271157,0.5691399693718705,0.5502361765003789,0.5851006671727861,0.5255647056086723,0.5530425003849728,0.021767638131145642,90
+7.467595863342285,0.2304899789948246,0.24062519073486327,0.02871244519523926,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",100.0,0.1,100,100,6,2,SimpleImputer(strategy='median'),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 100.0, 'clf__learning_rate': 0.1, 'clf__max_iter': 100, 'clf__min_samples_leaf': 100, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 6, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 2, 'ct1__num_pipe__imputer': SimpleImputer(strategy='median')}",0.6137150710295275,0.5084366112333779,0.5490901861074355,0.5927923542051665,0.49031287037882054,0.5508694185908656,0.04728194771958406,91
+118.34626393318176,1.2789126223597724,1.3017510414123534,0.09556221343708401,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",10.0,0.01,500,5,6,3,SimpleImputer(strategy='median'),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 10.0, 'clf__learning_rate': 0.01, 'clf__max_iter': 500, 'clf__min_samples_leaf': 5, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 6, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 3, 'ct1__num_pipe__imputer': SimpleImputer(strategy='median')}",0.526599745188104,0.44718700879716033,0.6115164163490253,0.5968423374734892,0.5377618278155649,0.5439814671246689,0.058421256943517394,92
+124.51148791313172,1.6380518418043482,2.2718163967132567,0.04792326478018772,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",1.0,0.001,1000,50,6,3,SimpleImputer(strategy='median'),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 1.0, 'clf__learning_rate': 0.001, 'clf__max_iter': 1000, 'clf__min_samples_leaf': 50, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 6, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 3, 'ct1__num_pipe__imputer': SimpleImputer(strategy='median')}",0.5565654139775745,0.4840947414378314,0.527818829598613,0.5775369602752554,0.5708097558415097,0.5433651402261568,0.0342047814947268,93
+106.17277188301087,2.1271778348566923,5.852047109603882,0.17811867528454695,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",1.0,0.01,1000,250,4,2,KNNImputer(n_neighbors=100),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 1.0, 'clf__learning_rate': 0.01, 'clf__max_iter': 1000, 'clf__min_samples_leaf': 250, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 4, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 2, 'ct1__num_pipe__imputer': KNNImputer(n_neighbors=100)}",0.5409550778328736,0.596183088086857,0.6094774468442661,0.47125301642391165,0.4927695642033698,0.5421276386782556,0.05462379475149035,94
+159.9490306377411,5.429113881884758,5.679497575759887,0.35500025668159413,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",0.1,0.001,1000,50,4,3,KNNImputer(n_neighbors=100),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 0.1, 'clf__learning_rate': 0.001, 'clf__max_iter': 1000, 'clf__min_samples_leaf': 50, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 4, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 3, 'ct1__num_pipe__imputer': KNNImputer(n_neighbors=100)}",0.5249927112709717,0.4955521906589067,0.5633019013511399,0.5870713960110227,0.533622204208428,0.5409080807000939,0.03161036104062386,95
+24.993220138549805,0.6594766942366226,2.6227633476257326,0.07332576679561288,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",0.1,0.1,50,5,6,3,KNNImputer(n_neighbors=100),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 0.1, 'clf__learning_rate': 0.1, 'clf__max_iter': 50, 'clf__min_samples_leaf': 5, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 6, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 3, 'ct1__num_pipe__imputer': KNNImputer(n_neighbors=100)}",0.43252880603816307,0.5536443193669065,0.5720686625676282,0.6586245417540525,0.48472543577575333,0.5403183531005007,0.0773190490299792,96
+297.7477644443512,2.2298703503216055,3.182191562652588,0.2379261100277621,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",0.001,0.001,1000,5,4,1,SimpleImputer(strategy='median'),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 0.001, 'clf__learning_rate': 0.001, 'clf__max_iter': 1000, 'clf__min_samples_leaf': 5, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 4, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 1, 'ct1__num_pipe__imputer': SimpleImputer(strategy='median')}",0.5562681686511206,0.505761008677937,0.5493324645196179,0.5565057205152867,0.5043499644794223,0.5344434653686768,0.024137295576867255,97
+151.2052649974823,1.9715056613541013,4.7007224559783936,0.09825011774953107,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",1.0,0.001,1000,50,4,3,KNNImputer(n_neighbors=10),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 1.0, 'clf__learning_rate': 0.001, 'clf__max_iter': 1000, 'clf__min_samples_leaf': 50, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 4, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 3, 'ct1__num_pipe__imputer': KNNImputer(n_neighbors=10)}",0.5692146904147541,0.5155863874039663,0.5499445642457853,0.5167117181291176,0.5151587361235628,0.5333232192634372,0.022293283439248995,98
+35.09221258163452,0.7154041277806041,2.7899055957794188,0.1323845797250079,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",1.0,1.0,100,5,6,2,KNNImputer(n_neighbors=10),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 1.0, 'clf__learning_rate': 1.0, 'clf__max_iter': 100, 'clf__min_samples_leaf': 5, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 6, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 2, 'ct1__num_pipe__imputer': KNNImputer(n_neighbors=10)}",0.5025573948060251,0.4740710982666937,0.5613930870042282,0.6000037718202339,0.5221225856594688,0.53202958751133,0.044291421605097074,99
+9.156218338012696,0.08107025468745714,0.2532680511474609,0.024538010937187417,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",1.0,0.01,100,100,4,1,SimpleImputer(),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 1.0, 'clf__learning_rate': 0.01, 'clf__max_iter': 100, 'clf__min_samples_leaf': 100, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 4, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 1, 'ct1__num_pipe__imputer': SimpleImputer()}",0.5786151557021528,0.5267822552814443,0.5109936081200213,0.516214174742263,0.5054584838707945,0.5276127355433352,0.02645324181018392,100
+10.556545305252076,0.18196788128634003,0.2885913372039795,0.012997633249289993,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",1.0,0.01,100,100,4,1,SimpleImputer(),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 1.0, 'clf__learning_rate': 0.01, 'clf__max_iter': 100, 'clf__min_samples_leaf': 100, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 4, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 1, 'ct1__num_pipe__imputer': SimpleImputer()}",0.5786151557021528,0.5267822552814443,0.5109936081200213,0.516214174742263,0.5054584838707945,0.5276127355433352,0.02645324181018392,100
+185.58993821144105,2.7755357525332127,4.287495803833008,0.29704201760149773,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",0.001,0.01,500,5,5,1,KNNImputer(n_neighbors=10),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 0.001, 'clf__learning_rate': 0.01, 'clf__max_iter': 500, 'clf__min_samples_leaf': 5, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 5, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 1, 'ct1__num_pipe__imputer': KNNImputer(n_neighbors=10)}",0.5582682592690348,0.40389797283493356,0.5666779886694745,0.618169089753929,0.4875541770827555,0.5269134975220255,0.07426155717934332,102
+171.64788322448732,16.63079901885019,4.66135540008545,0.306488668698314,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",0.01,0.01,1000,50,5,2,KNNImputer(n_neighbors=100),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 0.01, 'clf__learning_rate': 0.01, 'clf__max_iter': 1000, 'clf__min_samples_leaf': 50, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 5, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 2, 'ct1__num_pipe__imputer': KNNImputer(n_neighbors=100)}",0.5574349121948075,0.5788716293165714,0.6304985651949498,0.40809300148003375,0.44089685730867945,0.5231589930990085,0.0846259553729901,103
+26.24213080406189,1.2977663038925593,3.245308208465576,0.0980809517298276,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",0.01,0.01,100,100,4,1,KNNImputer(n_neighbors=10),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 0.01, 'clf__learning_rate': 0.01, 'clf__max_iter': 100, 'clf__min_samples_leaf': 100, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 4, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 1, 'ct1__num_pipe__imputer': KNNImputer(n_neighbors=10)}",0.5677997864474972,0.523662923394806,0.5300155999479089,0.488942870248004,0.49751966157926103,0.5215881683234954,0.02776994189897992,104
+226.61663575172423,2.55946652558244,6.5631327629089355,0.12173185023981924,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",1.0,1.0,2000,50,5,2,KNNImputer(n_neighbors=10),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 1.0, 'clf__learning_rate': 1.0, 'clf__max_iter': 2000, 'clf__min_samples_leaf': 50, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 5, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 2, 'ct1__num_pipe__imputer': KNNImputer(n_neighbors=10)}",0.6374121876616464,0.49184319548102284,0.6048391505065148,0.3909289812026784,0.47855671929438415,0.5207160468292493,0.08961073451835475,105
+154.84108753204345,1.2991583352666327,5.992335271835327,0.20376913815067288,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",0.1,0.1,1000,100,6,2,KNNImputer(n_neighbors=100),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 0.1, 'clf__learning_rate': 0.1, 'clf__max_iter': 1000, 'clf__min_samples_leaf': 100, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 6, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 2, 'ct1__num_pipe__imputer': KNNImputer(n_neighbors=100)}",0.4482393627847131,0.6012437896854996,0.6565613921847308,0.5012826560067856,0.3951754227425942,0.5205005246808647,0.09625945946275324,106
+13.315992879867554,0.08294587585607117,0.16254644393920897,0.005578100200811925,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",10.0,1.0,50,5,6,2,SimpleImputer(strategy='median'),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 10.0, 'clf__learning_rate': 1.0, 'clf__max_iter': 50, 'clf__min_samples_leaf': 5, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 6, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 2, 'ct1__num_pipe__imputer': SimpleImputer(strategy='median')}",0.42829281448167233,0.5400266908697595,0.596600982434809,0.5315370826415606,0.5032574218920092,0.5199429984639622,0.054940674703845074,107
+20.91766815185547,0.424704042819441,3.3307984352111815,0.1625209694790067,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",10.0,1.0,100,250,6,2,KNNImputer(n_neighbors=100),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 10.0, 'clf__learning_rate': 1.0, 'clf__max_iter': 100, 'clf__min_samples_leaf': 250, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 6, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 2, 'ct1__num_pipe__imputer': KNNImputer(n_neighbors=100)}",0.5226980977232768,0.5399800275563422,0.6434673787166472,0.49360263067090304,0.35834323197293394,0.5116182733280207,0.09179230892190376,108
+116.92712559700013,1.6012834098723239,4.590530824661255,0.19274082073773174,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",0.001,0.001,1000,100,5,1,KNNImputer(n_neighbors=10),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 0.001, 'clf__learning_rate': 0.001, 'clf__max_iter': 1000, 'clf__min_samples_leaf': 100, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 5, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 1, 'ct1__num_pipe__imputer': KNNImputer(n_neighbors=10)}",0.575725676004242,0.3858369350656973,0.49878009183866273,0.5338960977984855,0.5039800852135976,0.499643777184137,0.06313988221118982,109
+290.2295805931091,7.529508901406614,4.822440528869629,0.06284375712543278,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",100.0,0.1,1000,5,5,1,KNNImputer(n_neighbors=100),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 100.0, 'clf__learning_rate': 0.1, 'clf__max_iter': 1000, 'clf__min_samples_leaf': 5, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 5, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 1, 'ct1__num_pipe__imputer': KNNImputer(n_neighbors=100)}",0.38896630944021315,0.5364567797639236,0.5543284225035192,0.5418024396755642,0.4693622579992878,0.49818324187650165,0.062094712929745506,110
+28.812064027786256,0.6078525274109257,3.1779465675354004,0.1972202101616294,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",1.0,0.01,100,50,5,2,KNNImputer(n_neighbors=10),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 1.0, 'clf__learning_rate': 0.01, 'clf__max_iter': 100, 'clf__min_samples_leaf': 50, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 5, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 2, 'ct1__num_pipe__imputer': KNNImputer(n_neighbors=10)}",0.5705768352619858,0.3616165807712938,0.5409416504523669,0.5767836950130446,0.385075136013094,0.48699877950235704,0.09387819836885723,111
+646.9324678897858,2.5899900491083674,8.74627513885498,0.29847718396067846,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",1.0,0.001,2000,5,6,1,KNNImputer(n_neighbors=100),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 1.0, 'clf__learning_rate': 0.001, 'clf__max_iter': 2000, 'clf__min_samples_leaf': 5, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 6, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 1, 'ct1__num_pipe__imputer': KNNImputer(n_neighbors=100)}",0.36718491055701136,0.5388775732537309,0.5789629572542677,0.5749412064237928,0.33699130864250554,0.4793915912262617,0.10530996877940524,112
+16.188199472427367,0.1416012540998529,2.93552622795105,0.12753666372691735,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",100.0,0.1,50,100,6,3,KNNImputer(n_neighbors=10),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 100.0, 'clf__learning_rate': 0.1, 'clf__max_iter': 50, 'clf__min_samples_leaf': 100, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 6, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 3, 'ct1__num_pipe__imputer': KNNImputer(n_neighbors=10)}",0.46648067526924936,0.36757652408145225,0.47121914245947655,0.5489058438837051,0.5079204953435534,0.47242053620748725,0.06023162219727378,113
+181.22718486785888,0.9497500225599891,4.483899450302124,0.1710058971409889,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",10.0,0.1,500,5,5,2,KNNImputer(n_neighbors=100),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 10.0, 'clf__learning_rate': 0.1, 'clf__max_iter': 500, 'clf__min_samples_leaf': 5, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 5, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 2, 'ct1__num_pipe__imputer': KNNImputer(n_neighbors=100)}",0.49123057517993346,0.5128488271793009,0.5532997145936699,0.38726307835374596,0.3863451920169067,0.4661974774647114,0.06781862720304646,114
+29.236341619491576,0.5735174261097916,3.14174222946167,0.15263970090203183,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",100.0,1.0,50,5,4,1,KNNImputer(n_neighbors=100),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 100.0, 'clf__learning_rate': 1.0, 'clf__max_iter': 50, 'clf__min_samples_leaf': 5, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 4, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 1, 'ct1__num_pipe__imputer': KNNImputer(n_neighbors=100)}",0.44925893256565425,0.38174603508365357,0.45154518935765015,0.5021122128440008,0.5457308590014989,0.4660786457704916,0.05522500586055861,115
+8.401416063308716,0.16516614326695672,0.17576179504394532,0.007390028250754997,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",0.1,0.01,50,50,6,3,SimpleImputer(strategy='median'),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 0.1, 'clf__learning_rate': 0.01, 'clf__max_iter': 50, 'clf__min_samples_leaf': 50, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 6, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 3, 'ct1__num_pipe__imputer': SimpleImputer(strategy='median')}",0.4571440959503995,0.4428838059745999,0.4550758147587725,0.48106878370814954,0.4562313502054587,0.4584807701194761,0.0124251676625379,116
+69.89551863670349,1.5502781713830684,1.2805426120758057,0.04994389293118647,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",0.001,0.001,500,50,4,1,SimpleImputer(),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 0.001, 'clf__learning_rate': 0.001, 'clf__max_iter': 500, 'clf__min_samples_leaf': 50, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 4, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 1, 'ct1__num_pipe__imputer': SimpleImputer()}",0.47022153652656395,0.4231349108447163,0.4768644842652751,0.4705475502535868,0.4198497876221374,0.4521236539024559,0.025143713600112954,117
+49.57453126907349,0.7136067632432777,3.5760157108306885,0.11484490428108039,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",100.0,0.01,500,100,5,1,KNNImputer(n_neighbors=100),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 100.0, 'clf__learning_rate': 0.01, 'clf__max_iter': 500, 'clf__min_samples_leaf': 100, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 5, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 1, 'ct1__num_pipe__imputer': KNNImputer(n_neighbors=100)}",0.39935158686078,0.49432868630877935,0.4528761135597549,0.4608796341658724,0.41492681746956295,0.4444725676729499,0.03386531631134682,118
+7.701875400543213,0.20715616907187256,0.16788692474365235,0.011872814409451883,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",1.0,0.01,50,50,4,1,SimpleImputer(strategy='median'),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 1.0, 'clf__learning_rate': 0.01, 'clf__max_iter': 50, 'clf__min_samples_leaf': 50, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 4, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 1, 'ct1__num_pipe__imputer': SimpleImputer(strategy='median')}",0.44815402903895085,0.43374514432151684,0.42197170504440973,0.4752238392591274,0.44058719302734933,0.44393638213827086,0.017856197547317817,119
+75.6826765537262,1.1786176649246234,2.2142131328582764,0.17561711333356375,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",10.0,0.001,1000,100,5,2,SimpleImputer(),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 10.0, 'clf__learning_rate': 0.001, 'clf__max_iter': 1000, 'clf__min_samples_leaf': 100, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 5, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 2, 'ct1__num_pipe__imputer': SimpleImputer()}",0.37656883284513387,0.4298312750091113,0.4273144213251193,0.47312632833158624,0.43301099974768753,0.4279703714517276,0.030693581671409124,120
+7.358876037597656,0.1828390346446569,0.29366135597229004,0.017923020710195,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",1.0,0.01,100,250,5,1,SimpleImputer(),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 1.0, 'clf__learning_rate': 0.01, 'clf__max_iter': 100, 'clf__min_samples_leaf': 250, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 5, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 1, 'ct1__num_pipe__imputer': SimpleImputer()}",0.4158633171197235,0.3953773153446297,0.480073174254602,0.4292575931738515,0.4071302415220345,0.4255403282829683,0.029427988504659892,121
+86.69604725837708,0.8934828129025514,5.159149408340454,0.28864153864487485,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",1.0,0.001,1000,250,6,1,KNNImputer(n_neighbors=100),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 1.0, 'clf__learning_rate': 0.001, 'clf__max_iter': 1000, 'clf__min_samples_leaf': 250, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 6, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 1, 'ct1__num_pipe__imputer': KNNImputer(n_neighbors=100)}",0.3555907893368343,0.4527018354640064,0.4175210692793795,0.45556022634838406,0.39791195668577206,0.41585717542287526,0.03712330248375005,122
+509.71451168060304,7.214388776007818,7.375312185287475,0.20425091006548698,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",10.0,0.1,2000,5,6,2,KNNImputer(n_neighbors=100),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 10.0, 'clf__learning_rate': 0.1, 'clf__max_iter': 2000, 'clf__min_samples_leaf': 5, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 6, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 2, 'ct1__num_pipe__imputer': KNNImputer(n_neighbors=100)}",0.27774833466842314,0.5251397581981976,0.587738702820697,0.3491915673201041,0.31547489312511295,0.4110586512265069,0.12244653607505292,123
+20.777244281768798,1.0197206059447155,3.0062146186828613,0.3036842602221306,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",10.0,0.01,100,100,5,1,KNNImputer(n_neighbors=100),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 10.0, 'clf__learning_rate': 0.01, 'clf__max_iter': 100, 'clf__min_samples_leaf': 100, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 5, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 1, 'ct1__num_pipe__imputer': KNNImputer(n_neighbors=100)}",0.38023708078030977,0.4341222632652376,0.4143516361544082,0.46566734852765146,0.35056659944300395,0.4089889856341222,0.04028082354263103,124
+21.328876781463624,0.936678867332111,2.969030427932739,0.2623636980238778,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",0.1,0.01,50,50,5,1,KNNImputer(n_neighbors=10),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 0.1, 'clf__learning_rate': 0.01, 'clf__max_iter': 50, 'clf__min_samples_leaf': 50, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 5, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 1, 'ct1__num_pipe__imputer': KNNImputer(n_neighbors=10)}",0.4365706990637264,0.34939910378877104,0.3708628433343032,0.44626314626218366,0.4389428885178763,0.4084077361933721,0.040125347985172186,125
+156.64245147705077,3.5394824420634983,5.461347961425782,0.2211465281147495,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",10.0,0.001,1000,50,6,3,KNNImputer(n_neighbors=100),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 10.0, 'clf__learning_rate': 0.001, 'clf__max_iter': 1000, 'clf__min_samples_leaf': 50, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 6, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 3, 'ct1__num_pipe__imputer': KNNImputer(n_neighbors=100)}",0.3371182918700217,0.39218408183138354,0.4803579297760865,0.482267836819977,0.34114298717620656,0.406614225494735,0.06400937386221375,126
+22.468744468688964,0.5268395475228855,2.681200313568115,0.06155439016341796,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",10.0,0.01,100,50,5,1,KNNImputer(n_neighbors=100),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 10.0, 'clf__learning_rate': 0.01, 'clf__max_iter': 100, 'clf__min_samples_leaf': 50, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 5, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 1, 'ct1__num_pipe__imputer': KNNImputer(n_neighbors=100)}",0.35382687671172375,0.4344884280653285,0.4064186822158451,0.4790466352388302,0.34110437979758934,0.40297700040586343,0.05105949555278513,127
+22.04873881340027,0.2395722034178643,3.1594050407409666,0.08420661358365175,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",0.001,0.01,50,50,6,1,KNNImputer(n_neighbors=10),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 0.001, 'clf__learning_rate': 0.01, 'clf__max_iter': 50, 'clf__min_samples_leaf': 50, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 6, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 1, 'ct1__num_pipe__imputer': KNNImputer(n_neighbors=10)}",0.4294542537726634,0.32257052400613684,0.36440096452899595,0.4358782689316435,0.4483703540664948,0.4001348730611869,0.04849127452396096,128
+163.63012442588806,1.2993802435399635,4.372603988647461,0.11345186302875855,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",1.0,0.001,500,5,4,3,KNNImputer(n_neighbors=10),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 1.0, 'clf__learning_rate': 0.001, 'clf__max_iter': 500, 'clf__min_samples_leaf': 5, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 4, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 3, 'ct1__num_pipe__imputer': KNNImputer(n_neighbors=10)}",0.47020116499398734,0.411448408664114,0.38318488702552816,0.4054108451942886,0.32345086439370757,0.3987392340543251,0.04737745752092672,129
+21.77828049659729,0.3178564378808691,2.617082929611206,0.051078156991495406,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",10.0,0.01,100,50,5,2,KNNImputer(n_neighbors=10),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 10.0, 'clf__learning_rate': 0.01, 'clf__max_iter': 100, 'clf__min_samples_leaf': 50, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 5, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 2, 'ct1__num_pipe__imputer': KNNImputer(n_neighbors=10)}",0.4533841575479226,0.3215249033474078,0.4267560635123959,0.48107436030949957,0.3028822309428074,0.3971243431320067,0.07167658189470678,130
+42.662549114227296,0.3668696242783901,3.4791627883911134,0.17879148935688458,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",1.0,1.0,500,250,6,2,KNNImputer(n_neighbors=10),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 1.0, 'clf__learning_rate': 1.0, 'clf__max_iter': 500, 'clf__min_samples_leaf': 250, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 6, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 2, 'ct1__num_pipe__imputer': KNNImputer(n_neighbors=10)}",0.24477037119440856,0.5296131742787872,0.3931740875648302,0.43263121304393576,0.38234912403451726,0.3965075940232958,0.09193233454650715,131
+32.20657067298889,0.5920853058646675,2.6911442279815674,0.13137540673157766,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",1.0,1.0,500,250,6,1,KNNImputer(n_neighbors=10),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 1.0, 'clf__learning_rate': 1.0, 'clf__max_iter': 500, 'clf__min_samples_leaf': 250, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 6, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 1, 'ct1__num_pipe__imputer': KNNImputer(n_neighbors=10)}",0.18574923888272524,0.5060332020336787,0.38969214638187805,0.39598945687141124,0.4956466176715321,0.3946221323682451,0.11512813126766736,132
+46.992147541046144,1.3483089147462926,1.1261236190795898,0.04640485481297475,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",0.1,0.001,500,100,4,3,SimpleImputer(),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 0.1, 'clf__learning_rate': 0.001, 'clf__max_iter': 500, 'clf__min_samples_leaf': 100, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 4, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 3, 'ct1__num_pipe__imputer': SimpleImputer()}",0.44452288486474334,0.3778749720380059,0.3775135167003288,0.4000443315553322,0.35631681134368,0.39125450330041806,0.030010832857630107,133
+77.71483182907104,0.6226307623658319,4.54385199546814,0.2255583046213408,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",0.001,0.001,1000,250,5,2,KNNImputer(n_neighbors=10),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 0.001, 'clf__learning_rate': 0.001, 'clf__max_iter': 1000, 'clf__min_samples_leaf': 250, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 5, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 2, 'ct1__num_pipe__imputer': KNNImputer(n_neighbors=10)}",0.4426856181478354,0.28827661561556966,0.4063365530576656,0.44149654930902515,0.2829936003311675,0.37235778729225266,0.07202267708262972,134
+13.828109979629517,0.5442291935477465,0.18752851486206054,0.01858073969354459,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",1.0,0.01,50,5,6,2,SimpleImputer(strategy='median'),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 1.0, 'clf__learning_rate': 0.01, 'clf__max_iter': 50, 'clf__min_samples_leaf': 5, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 6, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 2, 'ct1__num_pipe__imputer': SimpleImputer(strategy='median')}",0.2493655966914023,0.24565898712393155,0.4357796676182084,0.2930302496817761,0.33780915577935605,0.3123287313789349,0.07024390110251887,135
+77.48285088539123,0.9902079953865024,5.16545991897583,0.4764640351643985,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",10.0,0.001,1000,250,4,2,KNNImputer(n_neighbors=10),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 10.0, 'clf__learning_rate': 0.001, 'clf__max_iter': 1000, 'clf__min_samples_leaf': 250, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 4, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 2, 'ct1__num_pipe__imputer': KNNImputer(n_neighbors=10)}",0.35657375360913407,0.30597934364320206,0.325120367051648,0.2874197738991417,0.1681210986267166,0.2886428673659685,0.06445581338634715,136
+15.274155855178833,0.318040247702984,2.730392074584961,0.0735401848725737,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",1.0,0.01,50,100,6,2,KNNImputer(n_neighbors=100),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 1.0, 'clf__learning_rate': 0.01, 'clf__max_iter': 50, 'clf__min_samples_leaf': 100, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 6, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 2, 'ct1__num_pipe__imputer': KNNImputer(n_neighbors=100)}",0.22068190253059394,0.3370610379014557,0.46107797824562724,0.19358085850076695,0.22043810502042058,0.2865679764397729,0.10036336853430243,137
+2.589904308319092,0.0560586697400363,0.10132060050964356,0.005187386924500297,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",0.1,0.01,50,250,5,2,SimpleImputer(strategy='median'),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 0.1, 'clf__learning_rate': 0.01, 'clf__max_iter': 50, 'clf__min_samples_leaf': 250, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 5, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 2, 'ct1__num_pipe__imputer': SimpleImputer(strategy='median')}",0.2878011735923623,0.2627105473180157,0.30789087777083635,0.27457739165836526,0.2824505768887791,0.28308611344567175,0.015003160157815313,138
+3.27720160484314,0.12175393100966717,0.1276162624359131,0.008176110717178373,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",1.0,0.01,50,250,6,3,SimpleImputer(strategy='median'),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 1.0, 'clf__learning_rate': 0.01, 'clf__max_iter': 50, 'clf__min_samples_leaf': 250, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 6, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 3, 'ct1__num_pipe__imputer': SimpleImputer(strategy='median')}",0.28741098407173793,0.2563092949391097,0.34029073754058736,0.2400695082374384,0.27847580634097485,0.28051126622596967,0.03419533768607283,139
+4.349695110321045,0.35783433319894564,0.18582324981689452,0.014996882080770633,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",0.1,1.0,100,100,4,1,SimpleImputer(strategy='median'),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 0.1, 'clf__learning_rate': 1.0, 'clf__max_iter': 100, 'clf__min_samples_leaf': 100, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 4, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 1, 'ct1__num_pipe__imputer': SimpleImputer(strategy='median')}",0.2603148778176213,0.2792985996177212,0.2754883329004112,0.36967788315838873,0.13396346719014038,0.26374863213685656,0.07544084834309292,140
+18.595636320114135,2.689073527056606,1.0442654609680175,0.11176898009568494,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",0.1,1.0,1000,5,4,3,SimpleImputer(strategy='median'),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 0.1, 'clf__learning_rate': 1.0, 'clf__max_iter': 1000, 'clf__min_samples_leaf': 5, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 4, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 3, 'ct1__num_pipe__imputer': SimpleImputer(strategy='median')}",0.33153663056344057,0.2683497052359791,0.19819884914686653,0.2766390009817924,0.19598571243661622,0.25414197967293894,0.051399791228813475,141
+243.51537833213806,4.6276269043298655,7.768721723556519,0.45261535041991857,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",100.0,0.001,2000,50,5,2,KNNImputer(n_neighbors=10),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 100.0, 'clf__learning_rate': 0.001, 'clf__max_iter': 2000, 'clf__min_samples_leaf': 50, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 5, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 2, 'ct1__num_pipe__imputer': KNNImputer(n_neighbors=10)}",0.2626668117764551,0.20274329463538518,0.31472653995480515,0.29880365301999606,0.1899696121606234,0.253781982309453,0.049994192379347845,142
+6.527211427688599,0.21755716841747164,0.18700051307678223,0.02987252539632053,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",10.0,0.01,50,50,6,3,SimpleImputer(),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 10.0, 'clf__learning_rate': 0.01, 'clf__max_iter': 50, 'clf__min_samples_leaf': 50, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 6, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 3, 'ct1__num_pipe__imputer': SimpleImputer()}",0.23841126410555624,0.22777624003395197,0.24534536510368427,0.2719932840640305,0.27601048140373985,0.2519073269421926,0.01893103345901145,143
+26.487747287750246,0.38333047434236533,3.0427979469299316,0.20506870312241351,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",10.0,0.01,50,5,4,1,KNNImputer(n_neighbors=10),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 10.0, 'clf__learning_rate': 0.01, 'clf__max_iter': 50, 'clf__min_samples_leaf': 5, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 4, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 1, 'ct1__num_pipe__imputer': KNNImputer(n_neighbors=10)}",0.28792080092501876,0.23851385343836412,0.19725568334992674,0.22223185202781998,0.19491576463486576,0.22816759087519908,0.033982213674557504,144
+28.157573461532593,4.1956461267553316,1.8923537731170654,0.07788045015574876,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",0.01,1.0,2000,100,6,3,SimpleImputer(),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 0.01, 'clf__learning_rate': 1.0, 'clf__max_iter': 2000, 'clf__min_samples_leaf': 100, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 6, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 3, 'ct1__num_pipe__imputer': SimpleImputer()}",0.28316890591393185,0.13768421850906243,0.10219606723128705,0.19685302204103278,0.20558113573990466,0.18509666988704376,0.062123166536995476,145
+50.69243836402893,1.5801429323181022,4.245648336410523,0.33016579752875336,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",0.001,0.001,500,250,6,1,KNNImputer(n_neighbors=10),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 0.001, 'clf__learning_rate': 0.001, 'clf__max_iter': 500, 'clf__min_samples_leaf': 250, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 6, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 1, 'ct1__num_pipe__imputer': KNNImputer(n_neighbors=10)}",0.14831460674157304,0.21660750875713228,0.2009108040368667,0.1807345536820883,0.17317041884457612,0.1839475784124473,0.023454643207992815,146
+51.51172013282776,0.7232150361713477,4.607525205612182,0.6409874222027849,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",0.001,0.001,500,250,6,1,KNNImputer(n_neighbors=10),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 0.001, 'clf__learning_rate': 0.001, 'clf__max_iter': 500, 'clf__min_samples_leaf': 250, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 6, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 1, 'ct1__num_pipe__imputer': KNNImputer(n_neighbors=10)}",0.14831460674157304,0.21660750875713228,0.2009108040368667,0.1807345536820883,0.17317041884457612,0.1839475784124473,0.023454643207992815,146
+28.575954961776734,0.6249530504986835,2.5136281967163088,0.09460191313812619,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",1.0,0.001,500,250,4,1,KNNImputer(n_neighbors=10),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 1.0, 'clf__learning_rate': 0.001, 'clf__max_iter': 500, 'clf__min_samples_leaf': 250, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 4, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 1, 'ct1__num_pipe__imputer': KNNImputer(n_neighbors=10)}",0.16970447899030322,0.18786712113892098,0.2009108040368667,0.1728115621727475,0.17150375217790947,0.18055954370334956,0.012061886195903754,148
+40.437220668792726,0.6646335534113361,3.4959689140319825,0.10552922319337636,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",1.0,0.001,500,250,6,1,KNNImputer(n_neighbors=100),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 1.0, 'clf__learning_rate': 0.001, 'clf__max_iter': 500, 'clf__min_samples_leaf': 250, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 6, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 1, 'ct1__num_pipe__imputer': KNNImputer(n_neighbors=100)}",0.1476400457209759,0.18225715139851645,0.1870108065234179,0.1874692415723826,0.17018800853925428,0.1749130507509094,0.014993947207212609,149
+1.2313015937805176,0.15554138126610034,0.08793630599975585,0.0117685355310664,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",0.01,1.0,50,250,4,1,SimpleImputer(),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 0.01, 'clf__learning_rate': 1.0, 'clf__max_iter': 50, 'clf__min_samples_leaf': 250, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 4, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 1, 'ct1__num_pipe__imputer': SimpleImputer()}",0.2157567236710854,0.24910624909872156,0.1321122604567597,0.18008600932946184,0.0965390252151366,0.174720053554233,0.055088665055598604,150
+3.9203413009643553,0.4558121418289224,0.14985551834106445,0.0063299411485804955,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",0.001,1.0,100,5,5,3,SimpleImputer(),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 0.001, 'clf__learning_rate': 1.0, 'clf__max_iter': 100, 'clf__min_samples_leaf': 5, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 5, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 3, 'ct1__num_pipe__imputer': SimpleImputer()}",0.18971732866580657,0.14985231829222728,0.22383479848549168,0.16162281071555534,0.12620233427756633,0.17024591808732945,0.03370756028074334,151
+12.040929460525513,0.5387684542936723,2.574702787399292,0.10859508771350268,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",0.1,1.0,50,250,6,1,KNNImputer(n_neighbors=100),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 0.1, 'clf__learning_rate': 1.0, 'clf__max_iter': 50, 'clf__min_samples_leaf': 250, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 6, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 1, 'ct1__num_pipe__imputer': KNNImputer(n_neighbors=100)}",0.10742370604614718,0.12977092611950644,0.12409877738010129,0.20148304096193276,0.27903961424234996,0.16836321295000753,0.06404454257995575,152
+30.490115118026733,5.473581938176314,3.7168385982513428,0.2508946970492935,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",0.001,1.0,1000,100,6,3,KNNImputer(n_neighbors=100),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 0.001, 'clf__learning_rate': 1.0, 'clf__max_iter': 1000, 'clf__min_samples_leaf': 100, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 6, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 3, 'ct1__num_pipe__imputer': KNNImputer(n_neighbors=100)}",0.10707849553751676,0.18734863488683445,0.19960339268714794,0.16342828289828232,0.18309032605564116,0.16810982641308453,0.032659246886029426,153
+1.9666436672210694,0.1452107932724412,0.11245946884155274,0.01818032114774322,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",0.01,1.0,50,100,4,1,SimpleImputer(),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 0.01, 'clf__learning_rate': 1.0, 'clf__max_iter': 50, 'clf__min_samples_leaf': 100, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 4, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 1, 'ct1__num_pipe__imputer': SimpleImputer()}",0.16783135063927196,0.2277047592757994,0.1326035875757975,0.1968309307676246,0.1104515050167224,0.16708442665504317,0.04232364163516693,154
+13.200129556655884,2.1829565869706924,0.9640139579772949,0.0847979943037729,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",0.001,1.0,1000,50,4,2,SimpleImputer(),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 0.001, 'clf__learning_rate': 1.0, 'clf__max_iter': 1000, 'clf__min_samples_leaf': 50, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 4, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 2, 'ct1__num_pipe__imputer': SimpleImputer()}",0.14587296613839484,0.2372173439918371,0.15844948199370437,0.1589408226101398,0.13286341189614273,0.16666880532604375,0.03655036758569396,155
+2.0283928871154786,0.29875829205078525,0.10859265327453613,0.011330153963650915,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",0.001,1.0,100,50,4,2,SimpleImputer(),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 0.001, 'clf__learning_rate': 1.0, 'clf__max_iter': 100, 'clf__min_samples_leaf': 50, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 4, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 2, 'ct1__num_pipe__imputer': SimpleImputer()}",0.14587296613839484,0.2372173439918371,0.15844948199370437,0.1589408226101398,0.13286341189614273,0.16666880532604375,0.03655036758569396,155
+47.480242395401,7.338906127188522,4.8196187019348145,0.11403529019115541,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",0.001,1.0,2000,50,6,3,KNNImputer(n_neighbors=10),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 0.001, 'clf__learning_rate': 1.0, 'clf__max_iter': 2000, 'clf__min_samples_leaf': 50, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 6, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 3, 'ct1__num_pipe__imputer': KNNImputer(n_neighbors=10)}",0.21591067979402262,0.16766544798112165,0.1080639948287007,0.1643805036448166,0.15919095397356267,0.16304231604444486,0.034221854929322434,157
+25.20205364227295,0.38748648520927526,0.9362484455108643,0.0709058729024652,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",10.0,0.001,500,250,4,3,SimpleImputer(),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 10.0, 'clf__learning_rate': 0.001, 'clf__max_iter': 500, 'clf__min_samples_leaf': 250, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 4, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 3, 'ct1__num_pipe__imputer': SimpleImputer()}",0.16967677389564415,0.1600880962612806,0.16707594081895757,0.15897077782552643,0.15677861464378318,0.16251804068903836,0.004968915974163246,158
+111.35264983177186,2.626887888204367,1.4945791244506836,0.09597534226325957,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",100.0,0.001,500,5,4,2,SimpleImputer(),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 100.0, 'clf__learning_rate': 0.001, 'clf__max_iter': 500, 'clf__min_samples_leaf': 5, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 4, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 2, 'ct1__num_pipe__imputer': SimpleImputer()}",0.1662921348314607,0.16285376634538645,0.16564706243477195,0.15475781202038186,0.1559050500061736,0.1610911651276349,0.004856340202669348,159
+23.58843684196472,0.5840989694315957,0.9051019191741944,0.05797956239832444,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",10.0,0.001,500,250,4,1,SimpleImputer(strategy='median'),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 10.0, 'clf__learning_rate': 0.001, 'clf__max_iter': 500, 'clf__min_samples_leaf': 250, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 4, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 1, 'ct1__num_pipe__imputer': SimpleImputer(strategy='median')}",0.16721102047098663,0.16093068942230954,0.16071121615814352,0.16149855730861318,0.1515711816273614,0.16038453299748284,0.0050184091601373736,160
+39.46118588447571,0.7175920425522152,3.9729631423950194,0.3174445160736334,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",100.0,0.001,500,250,4,3,KNNImputer(n_neighbors=10),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 100.0, 'clf__learning_rate': 0.001, 'clf__max_iter': 500, 'clf__min_samples_leaf': 250, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 4, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 3, 'ct1__num_pipe__imputer': KNNImputer(n_neighbors=10)}",0.16859473603201475,0.1656838971084781,0.16931057769046595,0.14692737430167596,0.14947524385726632,0.15999836579798024,0.009741940791129782,161
+22.389127016067505,1.1649666080643242,0.9324802875518798,0.1920472145603279,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",100.0,0.001,500,250,4,3,SimpleImputer(),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 100.0, 'clf__learning_rate': 0.001, 'clf__max_iter': 500, 'clf__min_samples_leaf': 250, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 4, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 3, 'ct1__num_pipe__imputer': SimpleImputer()}",0.1663059873787902,0.1612054146970348,0.163723985511695,0.15256000982257967,0.15396962587973823,0.15955300465796757,0.005400118724547524,162
+2.7171990871429443,0.1709219939424641,0.11728367805480958,0.01247542214412213,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",100.0,0.01,50,250,6,2,SimpleImputer(),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 100.0, 'clf__learning_rate': 0.01, 'clf__max_iter': 50, 'clf__min_samples_leaf': 250, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 6, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 2, 'ct1__num_pipe__imputer': SimpleImputer()}",0.1663059873787902,0.1612054146970348,0.163723985511695,0.15256000982257967,0.15396962587973823,0.15955300465796757,0.005400118724547524,162
+22.214164972305298,0.8433729556304002,3.183650350570679,0.15945913381399032,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",0.1,1.0,500,5,6,2,KNNImputer(n_neighbors=100),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 0.1, 'clf__learning_rate': 1.0, 'clf__max_iter': 500, 'clf__min_samples_leaf': 5, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 6, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 2, 'ct1__num_pipe__imputer': KNNImputer(n_neighbors=100)}",0.09945205479452054,0.10853479853479853,0.2666060293734831,0.12031866997811269,0.18723989602103913,0.1564302897403908,0.06313869156087196,164
+26.734464168548584,5.595886850968661,3.39210729598999,0.18784261836598679,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",0.001,1.0,1000,100,6,2,KNNImputer(n_neighbors=10),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 0.001, 'clf__learning_rate': 1.0, 'clf__max_iter': 1000, 'clf__min_samples_leaf': 100, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 6, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 2, 'ct1__num_pipe__imputer': KNNImputer(n_neighbors=10)}",0.12183152536399185,0.17172286733768952,0.17146093482761426,0.1750012364580368,0.13747653583999458,0.1554986199654654,0.021710101444903176,165
+12.130489063262939,0.12431286479597406,2.1807977199554442,0.08045160166736003,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",100.0,0.01,100,250,5,1,KNNImputer(n_neighbors=10),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 100.0, 'clf__learning_rate': 0.01, 'clf__max_iter': 100, 'clf__min_samples_leaf': 250, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 5, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 1, 'ct1__num_pipe__imputer': KNNImputer(n_neighbors=10)}",0.10730337078651686,0.16878875314629505,0.17295567560930689,0.16454816133587086,0.15875108038029387,0.15446940825165673,0.02404718191033123,166
+103.18453860282898,2.2447775604338207,4.512690877914428,0.16027408908821422,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",100.0,0.001,1000,50,6,3,KNNImputer(n_neighbors=10),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 100.0, 'clf__learning_rate': 0.001, 'clf__max_iter': 1000, 'clf__min_samples_leaf': 50, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 6, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 3, 'ct1__num_pipe__imputer': KNNImputer(n_neighbors=10)}",0.10449438202247192,0.171572840567254,0.1765547301860151,0.16258824973908773,0.15677861464378318,0.15439776343172237,0.02588055039941975,167
+36.0529842376709,3.401475989193452,1.2097555637359618,0.18757175012103913,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",100.0,0.001,500,100,6,2,SimpleImputer(strategy='median'),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 100.0, 'clf__learning_rate': 0.001, 'clf__max_iter': 500, 'clf__min_samples_leaf': 100, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 6, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 2, 'ct1__num_pipe__imputer': SimpleImputer(strategy='median')}",0.16209943050638756,0.15449229541408313,0.15225765854257473,0.15113113143839402,0.14468144215335227,0.15293239161095834,0.005625759892852202,168
+11.877544593811034,0.16142300995213715,2.543843173980713,0.09591528131438797,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",0.001,1.0,50,50,4,2,KNNImputer(n_neighbors=100),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 0.001, 'clf__learning_rate': 1.0, 'clf__max_iter': 50, 'clf__min_samples_leaf': 50, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 4, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 2, 'ct1__num_pipe__imputer': KNNImputer(n_neighbors=100)}",0.17400754857508569,0.12270199681299995,0.10593065964539752,0.18574364865559873,0.17067237381844122,0.15181124550150465,0.03147126477611922,169
+64.84281644821166,1.414447799202783,3.984970951080322,0.15392847837829263,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",100.0,0.001,500,50,4,2,KNNImputer(n_neighbors=10),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 100.0, 'clf__learning_rate': 0.001, 'clf__max_iter': 500, 'clf__min_samples_leaf': 50, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 4, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 2, 'ct1__num_pipe__imputer': KNNImputer(n_neighbors=10)}",0.16603201477605048,0.15909049051507151,0.16704831481367793,0.15559119651298423,0.1,0.14955240332355682,0.02514186674888469,170
+25.68219656944275,0.36955772302196205,3.0940647602081297,0.09114064517173451,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",100.0,0.01,50,5,6,3,KNNImputer(n_neighbors=100),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 100.0, 'clf__learning_rate': 0.01, 'clf__max_iter': 50, 'clf__min_samples_leaf': 5, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 6, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 3, 'ct1__num_pipe__imputer': KNNImputer(n_neighbors=100)}",0.10168539325842696,0.16397108478114064,0.16620572165264905,0.15448308674565658,0.15449438202247193,0.14816793369206901,0.023730288875559582,171
+2.5138625621795656,0.2856263756799914,0.15441746711730958,0.02326295226934381,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",0.001,1.0,100,250,6,3,SimpleImputer(strategy='median'),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 0.001, 'clf__learning_rate': 1.0, 'clf__max_iter': 100, 'clf__min_samples_leaf': 250, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 6, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 3, 'ct1__num_pipe__imputer': SimpleImputer(strategy='median')}",0.15270262463370615,0.16587930065619416,0.15574640332296236,0.1415816339427907,0.11079314676530114,0.1453406218641909,0.01893132179732196,172
+6.9830708503723145,0.8540849268380583,0.4969326972961426,0.032844019453396725,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",0.001,1.0,500,250,5,3,SimpleImputer(strategy='median'),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 0.001, 'clf__learning_rate': 1.0, 'clf__max_iter': 500, 'clf__min_samples_leaf': 250, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 5, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 3, 'ct1__num_pipe__imputer': SimpleImputer(strategy='median')}",0.16533147104135235,0.17136493898020708,0.15407973665629565,0.12545433644020565,0.10912648009863446,0.14507139264333904,0.023915840982251902,173
+20.530291938781737,3.653105781416776,2.8001155853271484,0.07119884661605204,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",0.01,1.0,1000,100,6,1,KNNImputer(n_neighbors=100),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 0.01, 'clf__learning_rate': 1.0, 'clf__max_iter': 1000, 'clf__min_samples_leaf': 100, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 6, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 1, 'ct1__num_pipe__imputer': KNNImputer(n_neighbors=100)}",0.15308374137479536,0.15977106355882417,0.11325008058566188,0.12946690602400784,0.13483464589473382,0.1380812874876046,0.0167144075246294,174
+11.37281641960144,0.3256067793948374,0.17372589111328124,0.011201954156883711,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",100.0,0.001,50,5,4,2,SimpleImputer(strategy='median'),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 100.0, 'clf__learning_rate': 0.001, 'clf__max_iter': 50, 'clf__min_samples_leaf': 5, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 4, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 2, 'ct1__num_pipe__imputer': SimpleImputer(strategy='median')}",0.1,0.1,0.1,0.1,0.1,0.1,0.0,175
+2.124883604049683,0.016974945777730018,0.09306926727294922,0.008599351381274677,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",1.0,0.001,50,250,5,2,SimpleImputer(),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 1.0, 'clf__learning_rate': 0.001, 'clf__max_iter': 50, 'clf__min_samples_leaf': 250, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 5, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 2, 'ct1__num_pipe__imputer': SimpleImputer()}",0.1,0.1,0.1,0.1,0.1,0.1,0.0,175
+38.64840440750122,0.6196745397338804,3.180762004852295,0.10691787070841505,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",100.0,0.001,100,5,5,3,KNNImputer(n_neighbors=10),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 100.0, 'clf__learning_rate': 0.001, 'clf__max_iter': 100, 'clf__min_samples_leaf': 5, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 5, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 3, 'ct1__num_pipe__imputer': KNNImputer(n_neighbors=10)}",0.1,0.1,0.1,0.1,0.1,0.1,0.0,175
+3.375243902206421,0.08513823803180133,0.10338573455810547,0.009288160289434836,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",1.0,0.001,50,100,6,3,SimpleImputer(strategy='median'),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 1.0, 'clf__learning_rate': 0.001, 'clf__max_iter': 50, 'clf__min_samples_leaf': 100, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 6, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 3, 'ct1__num_pipe__imputer': SimpleImputer(strategy='median')}",0.1,0.1,0.1,0.1,0.1,0.1,0.0,175
+8.7094096660614,0.5685946674787781,0.17352828979492188,0.006664490405635262,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",0.001,0.001,50,50,4,1,SimpleImputer(strategy='median'),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 0.001, 'clf__learning_rate': 0.001, 'clf__max_iter': 50, 'clf__min_samples_leaf': 50, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 4, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 1, 'ct1__num_pipe__imputer': SimpleImputer(strategy='median')}",0.1,0.1,0.1,0.1,0.1,0.1,0.0,175
+8.398370552062989,0.3197379971552753,0.2607058048248291,0.02552990527642656,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",10.0,0.001,100,100,6,3,SimpleImputer(strategy='median'),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 10.0, 'clf__learning_rate': 0.001, 'clf__max_iter': 100, 'clf__min_samples_leaf': 100, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 6, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 3, 'ct1__num_pipe__imputer': SimpleImputer(strategy='median')}",0.1,0.1,0.1,0.1,0.1,0.1,0.0,175
+12.616070365905761,0.10209005770578483,2.3805676460266114,0.043698404154104836,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",0.001,0.001,50,250,4,3,KNNImputer(n_neighbors=10),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 0.001, 'clf__learning_rate': 0.001, 'clf__max_iter': 50, 'clf__min_samples_leaf': 250, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 4, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 3, 'ct1__num_pipe__imputer': KNNImputer(n_neighbors=10)}",0.1,0.1,0.1,0.1,0.1,0.1,0.0,175
+23.32072434425354,0.5968494382901633,0.2658235549926758,0.01443610795095427,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",1.0,0.001,100,5,5,1,SimpleImputer(),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 1.0, 'clf__learning_rate': 0.001, 'clf__max_iter': 100, 'clf__min_samples_leaf': 5, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 5, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 1, 'ct1__num_pipe__imputer': SimpleImputer()}",0.1,0.1,0.1,0.1,0.1,0.1,0.0,175
+3.321225309371948,0.19343925107328128,0.13608098030090332,0.018657025302376992,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",0.01,0.001,50,250,6,1,SimpleImputer(),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 0.01, 'clf__learning_rate': 0.001, 'clf__max_iter': 50, 'clf__min_samples_leaf': 250, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 6, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 1, 'ct1__num_pipe__imputer': SimpleImputer()}",0.1,0.1,0.1,0.1,0.1,0.1,0.0,175
+30.90847988128662,1.6279560155852264,0.39736180305480956,0.06349563695736997,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",0.01,0.001,100,5,6,1,SimpleImputer(strategy='median'),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 0.01, 'clf__learning_rate': 0.001, 'clf__max_iter': 100, 'clf__min_samples_leaf': 5, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 6, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 1, 'ct1__num_pipe__imputer': SimpleImputer(strategy='median')}",0.1,0.1,0.1,0.1,0.1,0.1,0.0,175
+16.24368815422058,0.45634291663989884,2.5400858879089356,0.12832408065219822,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",1.0,0.001,50,50,5,1,KNNImputer(n_neighbors=10),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 1.0, 'clf__learning_rate': 0.001, 'clf__max_iter': 50, 'clf__min_samples_leaf': 50, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 5, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 1, 'ct1__num_pipe__imputer': KNNImputer(n_neighbors=10)}",0.1,0.1,0.1,0.1,0.1,0.1,0.0,175
+10.75584602355957,0.4408495254187289,0.288692569732666,0.019403806591697575,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",1.0,0.001,100,100,4,1,SimpleImputer(strategy='median'),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 1.0, 'clf__learning_rate': 0.001, 'clf__max_iter': 100, 'clf__min_samples_leaf': 100, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 4, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 1, 'ct1__num_pipe__imputer': SimpleImputer(strategy='median')}",0.1,0.1,0.1,0.1,0.1,0.1,0.0,175
+12.381895685195923,0.8017061769164336,0.1563037872314453,0.016578356882701,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",1.0,0.001,50,5,6,3,SimpleImputer(),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 1.0, 'clf__learning_rate': 0.001, 'clf__max_iter': 50, 'clf__min_samples_leaf': 5, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 6, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 3, 'ct1__num_pipe__imputer': SimpleImputer()}",0.1,0.1,0.1,0.1,0.1,0.1,0.0,175
+27.031127309799196,0.3391718695885737,0.3342726230621338,0.03991335839359568,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",10.0,0.001,100,5,6,3,SimpleImputer(),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 10.0, 'clf__learning_rate': 0.001, 'clf__max_iter': 100, 'clf__min_samples_leaf': 5, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 6, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 3, 'ct1__num_pipe__imputer': SimpleImputer()}",0.1,0.1,0.1,0.1,0.1,0.1,0.0,175
+12.06215295791626,0.29586718980525173,0.30411863327026367,0.029289287295697488,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",0.1,0.001,100,100,4,3,SimpleImputer(),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 0.1, 'clf__learning_rate': 0.001, 'clf__max_iter': 100, 'clf__min_samples_leaf': 100, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 4, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 3, 'ct1__num_pipe__imputer': SimpleImputer()}",0.1,0.1,0.1,0.1,0.1,0.1,0.0,175
+12.648547840118407,0.22622663445673732,0.17543740272521974,0.021876479625598962,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",0.1,0.001,50,5,5,1,SimpleImputer(strategy='median'),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 0.1, 'clf__learning_rate': 0.001, 'clf__max_iter': 50, 'clf__min_samples_leaf': 5, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 5, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 1, 'ct1__num_pipe__imputer': SimpleImputer(strategy='median')}",0.1,0.1,0.1,0.1,0.1,0.1,0.0,175
+19.034106731414795,0.7854769513711917,3.1458114624023437,0.17003724017394362,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",10.0,0.001,100,250,4,1,KNNImputer(n_neighbors=10),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 10.0, 'clf__learning_rate': 0.001, 'clf__max_iter': 100, 'clf__min_samples_leaf': 250, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 4, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 1, 'ct1__num_pipe__imputer': KNNImputer(n_neighbors=10)}",0.1,0.1,0.1,0.1,0.1,0.1,0.0,175
+14.844843864440918,0.5960690444745075,0.17524752616882325,0.012466377538300231,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",0.001,0.001,50,5,6,3,SimpleImputer(strategy='median'),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 0.001, 'clf__learning_rate': 0.001, 'clf__max_iter': 50, 'clf__min_samples_leaf': 5, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 6, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 3, 'ct1__num_pipe__imputer': SimpleImputer(strategy='median')}",0.1,0.1,0.1,0.1,0.1,0.1,0.0,175
+4.5422502040863035,0.13850277452896478,0.14658284187316895,0.015485899695788034,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",1.0,0.001,50,100,4,1,SimpleImputer(strategy='median'),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 1.0, 'clf__learning_rate': 0.001, 'clf__max_iter': 50, 'clf__min_samples_leaf': 100, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 4, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 1, 'ct1__num_pipe__imputer': SimpleImputer(strategy='median')}",0.1,0.1,0.1,0.1,0.1,0.1,0.0,175
+9.593341827392578,0.2094006266539244,0.2560934543609619,0.019193352616597964,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",0.01,0.001,100,100,5,2,SimpleImputer(),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 0.01, 'clf__learning_rate': 0.001, 'clf__max_iter': 100, 'clf__min_samples_leaf': 100, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 5, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 2, 'ct1__num_pipe__imputer': SimpleImputer()}",0.1,0.1,0.1,0.1,0.1,0.1,0.0,175
+6.754148674011231,0.12105713957922312,0.2614694118499756,0.008389154496240493,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",0.1,0.001,100,250,6,3,SimpleImputer(),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 0.1, 'clf__learning_rate': 0.001, 'clf__max_iter': 100, 'clf__min_samples_leaf': 250, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 6, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 3, 'ct1__num_pipe__imputer': SimpleImputer()}",0.1,0.1,0.1,0.1,0.1,0.1,0.0,175
+23.107824897766115,0.4276532174021299,2.6988131999969482,0.24045205213884846,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",1.0,0.001,50,5,5,3,KNNImputer(n_neighbors=10),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 1.0, 'clf__learning_rate': 0.001, 'clf__max_iter': 50, 'clf__min_samples_leaf': 5, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 5, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 3, 'ct1__num_pipe__imputer': KNNImputer(n_neighbors=10)}",0.1,0.1,0.1,0.1,0.1,0.1,0.0,175
+20.201304817199706,0.5379822608197367,3.1604096412658693,0.12584406924704675,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",0.01,0.001,100,250,5,1,KNNImputer(n_neighbors=100),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 0.01, 'clf__learning_rate': 0.001, 'clf__max_iter': 100, 'clf__min_samples_leaf': 250, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 5, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 1, 'ct1__num_pipe__imputer': KNNImputer(n_neighbors=100)}",0.1,0.1,0.1,0.1,0.1,0.1,0.0,175
+7.214323997497559,0.25742940446280743,0.15252981185913086,0.00928181025200272,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",0.001,0.001,50,50,4,2,SimpleImputer(strategy='median'),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 0.001, 'clf__learning_rate': 0.001, 'clf__max_iter': 50, 'clf__min_samples_leaf': 50, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 4, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 2, 'ct1__num_pipe__imputer': SimpleImputer(strategy='median')}",0.1,0.1,0.1,0.1,0.1,0.1,0.0,175
+24.92676200866699,1.379790369704159,3.1536388397216797,0.325833760626734,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",0.01,0.001,50,5,6,2,KNNImputer(n_neighbors=100),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 0.01, 'clf__learning_rate': 0.001, 'clf__max_iter': 50, 'clf__min_samples_leaf': 5, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 6, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 2, 'ct1__num_pipe__imputer': KNNImputer(n_neighbors=100)}",0.1,0.1,0.1,0.1,0.1,0.1,0.0,175
+29.32850499153137,0.8969736137844264,3.1184824466705323,0.11760747792307268,"HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42)",0.01,0.001,100,50,6,3,KNNImputer(n_neighbors=10),"{'clf': HistGradientBoostingClassifier(l2_regularization=10.0, learning_rate=0.01,
+                               max_iter=2000, min_samples_leaf=50,
+                               random_state=42), 'clf__l2_regularization': 0.01, 'clf__learning_rate': 0.001, 'clf__max_iter': 100, 'clf__min_samples_leaf': 50, 'ct1__num_pipe__handle_skewness__log_thresh_abs': 6, 'ct1__num_pipe__handle_skewness__sqrt_thresh_abs': 3, 'ct1__num_pipe__imputer': KNNImputer(n_neighbors=10)}",0.1,0.1,0.1,0.1,0.1,0.1,0.0,175
